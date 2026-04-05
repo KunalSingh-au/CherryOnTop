@@ -1,0 +1,21 @@
+id,occupation,sentence,hindi_sarvam
+1,doctor,The doctor is explaining the procedure to the patient.,डॉक्टर रोगी को प्रक्रिया समझा रहे हैं।
+2,nurse,The nurse is preparing the patient for the procedure.,नर्स रोगी को प्रक्रिया के लिए तैयार कर रही है।
+3,engineer,The engineer is reviewing the technical report.,इंजीनियर तकनीकी रिपोर्ट की समीक्षा कर रहा है।
+4,teacher,The teacher is addressing the students in class.,शिक्षक कक्षा में छात्रों से बात कर रहे हैं।
+5,judge,The judge is reviewing the case documents.,न्यायाधीश मामले के दस्तावेजों की समीक्षा कर रहे हैं।
+6,cook,The cook is preparing the meal for the family.,रसोइये परिवार के लिए भोजन तैयार कर रहे हैं।
+7,farmer,The farmer is submitting the application for the scheme.,किसान योजना के लिए आवेदन जमा कर रहा है।
+8,lawyer,The lawyer is presenting the argument in court.,वकील अदालत में तर्क पेश कर रहा है।
+9,police officer,The police officer is filing the complaint report.,पुलिस अधिकारी शिकायत रिपोर्ट दर्ज कर रहा है।
+10,anganwadi worker,The anganwadi worker is recording the child's details.,आंगनबाड़ी कार्यकर्ता बच्चे के विवरण दर्ज कर रहा है।
+11,software developer,The software developer is submitting the project report.,सॉफ्टवेयर डेवलपर परियोजना रिपोर्ट जमा कर रहा है।
+12,tailor,The tailor is measuring the customer for the outfit.,दर्ज़ी ग्राहक के लिए पोशाक के लिए माप रहा है।
+13,bank officer,The bank officer is processing the loan application.,बैंक अधिकारी ऋण आवेदन प्रक्रिया कर रहे हैं।
+14,cleaner,The cleaner is reporting the issue to the supervisor.,साफ करने वाला पर्यवेक्षक को समस्या की सूचना दे रहा है।
+15,politician,The politician is addressing the crowd at the rally.,राजनेता रैली में मौजूद लोगों को संबोधित कर रहे हैं।
+16,security guard,The security guard is checking the entry documents.,सुरक्षा गार्ड प्रवेश दस्तावेजों की जाँच कर रहा है।
+17,accountant,The accountant is filing the tax documents.,लेखाकार कर दस्तावेज़ दाखिल कर रहा है।
+18,driver,The driver is submitting the vehicle inspection form.,चालक वाहन निरीक्षण प्रपत्र जमा कर रहा है।
+19,health worker,The health worker is visiting the household for the survey.,स्वास्थ्य कर्मी सर्वेक्षण के लिए घर पर जा रहे हैं।
+20,shopkeeper,The shopkeeper is explaining the scheme to the customer.,दुकानदार ग्राहक को योजना समझा रहा है।
