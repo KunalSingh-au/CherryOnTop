@@ -1,0 +1,544 @@
+﻿doc_id,ministry,question_id,question_hi,gold_answer_en,context_type,qa_model,answer_hi
+AU2338,ayush,Q1,AYURGYAN योजना के अंतर्गत कुल कितने Research & Innovation प्रोजेक्ट स्वीकृत किए गए?,,english,sarvam,AYURGYAN योजना के
+AU2338,ayush,Q2,ABIHR घटक के अंतर्गत कितने प्रोजेक्ट अनुमोदित किए गए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many projects have been approved under the ABIHR component. The document provided is in Hindi, so I need to read through it carefully.
+
+First, I'll look for the section that mentions ABIHR. The document starts by talking about the Ayurgyan scheme with three components: Capacity Building, Research & Innovation, and ABIHR. It says ABIHR was added in 2023-24 as the third component. 
+
+Then, under the Research & Innovation in Ayush and ABIHR component, financial assistance is given for R&D. The next sentence states that since inception, a total of 34 and 11 research projects were approved under Research & Innovation and ABIHR respectively. 
+
+So, the key number here is 11 projects under ABIHR. The following sentences mention that out of these 11, 6 were related to safety and efficacy dossiers for Ayurvedic"
+AU2338,ayush,Q3,AYUSH रिसर्च के लिए कुल कितनी राशि Research & Innovation और ABIHR के तहत दी गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the total amount of money allocated for AYUSH research under the Research & Innovation and ABIHR components. The document provided mentions the Ayurgyan scheme with three components: Capacity Building & CME, Research & Innovation in AYUSH, and ABIHR. The question specifically asks about the financial assistance given under Research & Innovation and ABIHR.
+
+Looking through the document, part (a) states that financial assistance is provided to eligible organizations for R&D activities under these components. It also mentions the number of projects approved: 34 under Research & Innovation and 11 under ABIHR. However, the document doesn't provide the actual monetary figures for these grants. The numbers given are about the number of projects, not the total amount of money. 
+
+The document also talks about the Research Councils under the Ministry of Ayush, like CCRAS, CCRH, etc., and the number of research studies they've undertaken"
+AU2338,ayush,Q4,Research Councils द्वारा कुल कितने शोध अध्ययन किए गए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many total research studies were conducted by the Research Councils. The document provided is in Hindi, so I need to parse through it carefully.
+
+First, I'll look for the section that mentions the Research Councils. The document talks about the Ministry of Ayush and their schemes, then moves on to the Research Councils. In part (a), it mentions that the Research Councils like CCRAS, CCRH, CCRUM, CCRS, and CCRYN undertake research activities. Then, towards the end of the paragraph, there's a sentence: ""Further, a total 709 of research studies (i.e. CCRAS-235, CCRH-230, CCRUM-120, CCRS-102, CCRYN-22) was undertaken by the above Research Councils.""
+
+Wait, the way it's written might be a bit confusing. The phrase"
+AU2338,ayush,Q5,"CCRAS, CCRUM, CCRH और CCRS द्वारा कुल कितने पेटेंट दाखिल या स्वीकृत किए गए?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many patents have been filed or approved by CCRAS, CCRUM, CCRH, and CCRS. The document provided is from the Ministry of Ayush, discussing their research activities.
+
+First, I need to go through the document carefully. The relevant section is part (a). It mentions that the Research Councils under the Ministry of Ayush, including CCRAS, CCRH, CCRUM, CCRS, and CCRYN, undertake various research activities like clinical research, drug proving, etc. It also states that a total of 709 research studies were undertaken by these councils: CCRAS-235, CCRH-230, CCRUM-120, CCRS-102, and CCRYN-22.
+
+However, the question specifically asks about patents filed or approved. The document talks about research projects and studies but doesn't mention patents directly. The numbers given ("
+AU2402,ayush,Q1,हरियाणा में कुल कितने आयुष डॉक्टर पद स्वीकृत किए गए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total number of Ayush doctor posts approved in Haryana. The document provided mentions the Ministry of AYUSH and the National Ayush Mission (NAM). It talks about funds sanctioned, allocated, released, and utilized for Hisar and Sonipat parliamentary constituencies over the last three years for developing Ayush infrastructure like dispensaries, health centers, hospitals, and human resources.
+
+The key part here is ""associate human resource under the NAM."" The term ""associate human resource"" likely refers to the staff or personnel, including doctors. However, the document doesn't explicitly state the number of Ayush doctor posts approved. It only mentions that the details are furnished, but the actual numbers aren't provided in the given text. The user might need to refer to the full report or data from the State Government of Haryana under NAM for the exact figures. Since the answer isn't present in the"
+AU2402,ayush,Q2,पहले चरण में कितने आयुर्वेदिक मेडिकल अधिकारियों की नियुक्ति की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the number of Ayurvedic medical officers appointed in the first phase under the National Ayush Mission (NAM) in the Haryana state's Hisar and Sonipat parliamentary constituencies over the last three years.
+
+First, I need to refer to the provided document. The document mentions that the details of funds and infrastructure development, including Ayush dispensaries, health centers, hospitals, and human resources, are reported by the Haryana government under NAM. However, the document doesn't explicitly state the number of Ayurvedic medical officers appointed in the first phase. 
+
+The key points here are that the document talks about funds and infrastructure but doesn't provide specific numbers for human resources like medical officers. Since the answer isn't directly available in the given text, I should inform the user that the information isn't present in the provided document. It's important to be clear and not assume any numbers that"
+AU2402,ayush,Q3,सोनीपत में कितने AMO नियुक्त किए गए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many AMOs (Ayush Medical Officers) have been appointed in Sonipat under the National Ayush Mission (NAM) in the last three years. The document provided is a response from the Minister of State for AYUSH, Shri Prataprao Jadhav, regarding funds and infrastructure development in Haryana's Hisar and Sonipat parliamentary constituencies.
+
+First, I need to parse the document carefully. The document mentions that the details of funds sanctioned, allocated, released, and utilized for Ayush infrastructure development, including Ayush dispensaries, Health and Wellness Centres (renamed as Ayushman Arogya Mandir), hospitals, and associated human resources under NAM for the last three years are provided. However, the actual data isn't listed in the provided text. The document only states that the information is furnished but doesn't include specific numbers.
+
+The user's question specifically asks about"
+AU2402,ayush,Q4,NAM के तहत राज्य सरकार को नई आयुष संस्थाएँ स्थापित करने के लिए क्या करना होता है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking what the state government needs to do under the National Ayush Mission (NAM) to establish new Ayush institutions. The provided document mentions that the Ministry of AYUSH has allocated funds for Ayush infrastructure development in Haryana's Hisar and Sonipat parliamentary constituencies. The document lists Ayush dispensaries, Health and Wellness Centres (now called Ayushman Arogya Mandir), hospitals, and human resource development.
+
+So, the answer should be based on the information given. The state government's role under NAM likely involves utilizing the sanctioned funds for setting up these institutions. The document mentions funds being allocated and utilized for infrastructure and human resources. Therefore, the state government probably needs to apply for or utilize the allocated funds under NAM to establish new Ayush institutions like dispensaries, health centers, hospitals, and train human resources. The answer should reflect that the state government uses the funds provided by"
+AU2402,ayush,Q5,2023-24 में हिसार के लिए कितनी राशि आवंटित की गई थी?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the allocated amount for Hisar in 2023-24 under the National Ayush Mission (NAM) based on the provided document.
+
+First, I need to read the document carefully. The document mentions that the details of funds sanctioned, allocated, released, and utilized for Hisar and Sonipat parliamentary constituencies under NAM for Ayush infrastructure development over the last three years are provided. However, the actual numbers aren't listed in the text given. The document only states that the information is furnished but doesn't include specific figures.
+
+The user's question specifically asks for the allocated amount for Hisar in 2023-24. Since the document doesn't provide any numerical data, I can't extract the exact figure from the text. The answer should indicate that the information isn't available in the provided document. I need to make sure to respond in Hindi as per the user's instruction and"
+AU3568,ayush,Q1,मुफ्त आयुष दवाओं की उपलब्धता सुनिश्चित करने की प्राथमिक जिम्मेदारी किसकी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about who is primarily responsible for ensuring the availability of free Ayush medicines. The document provided is in Hindi, so I need to read through it carefully.
+
+Looking at the first paragraph, it starts by saying that public health is a state subject. The primary responsibility for ensuring adequate availability of free Ayush medicines in health facilities and creating community awareness through digital platforms, SMS, etc., lies with the respective State/UT Governments. However, the Ministry of Ayush has developed systems like AHMIS to digitize inventories and track medicine availability. They also support states through NAM for BCC and IEC activities to raise awareness. But the key point here is that the main responsibility is on the states. The answer should be the State/UT Governments. I need to make sure there's no mention of the central government taking over this responsibility. The document clearly states that it's under the purview of the respective State/UT"
+AU3568,ayush,Q2,आयुष दवाओं की उपलब्धता को ट्रैक करने के लिए कौन सा डिजिटल प्लेटफॉर्म विकसित किया गया है?,,english,sarvam,आयुष
+AU3568,ayush,Q3,NAM के तहत कितने Ayushman Arogya Mandir (Ayush) संचालित किए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many Ayushman Arogya Mandir (Ayush) have been operationalized under the National Ayush Mission (NAM). 
+
+First, I need to look through the provided document to find the relevant information. The document mentions several points under the Ministry of Ayush's initiatives. Let me scan through each section.
+
+In part (d) of the document, it states: ""Under NAM, 12,500 Ayushman Arogya Mandir AAM (Ayush) [AAM (Ayush)] have been made operational across the Country."" 
+
+So, the key number here is 12,500. The question specifically asks for the number of Ayushman Arogya Mandir (Ayush) under NAM, and the document clearly states that 12,500 have been operationalized. 
+
+I should make sure there's no"
+AU3568,ayush,Q4,स्वास्थ्यकर्मियों के प्रशिक्षण के लिए कौन-कौन से कार्यक्रम आयोजित किए गए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which programs have been organized for the training of health workers. The document provided is in Hindi, so I need to read through it carefully.
+
+First, I'll look for sections that mention training programs. The document starts by talking about the responsibilities of state governments but then mentions the Ministry of Ayush's initiatives. 
+
+In part (d), it says: ""Ministry of Ayush has organized Training of Trainers (ToT) programmes to train healthcare workers, including ASHA and ANM workers, about the benefits of Ayush for maintaining general wellness and preventing diseases."" 
+
+So the key program mentioned here is the Training of Trainers (ToT) programs. The answer should be that the ToT programs are the ones organized for training health workers like ASHA and ANM. I need to make sure there's no other program mentioned. The rest of the document talks about awareness campaigns and infrastructure like AAM (Ay"
+AU3568,ayush,Q5,राज्य सरकारें प्रशिक्षण और क्षमता निर्माण के लिए वित्तीय सहायता कैसे प्राप्त कर सकती हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how state governments can obtain financial assistance for training and capacity building. The document provided is from the Ministry of AYUSH, so I need to focus on that.
+
+First, I'll read through the document again to find relevant parts. The key sections are (a) to (d). The question is about financial assistance, so I should look for mentions of funding or support from the Ministry to states.
+
+In part (d), it mentions the National Ayush Mission (NAM) and the establishment of 12,500 Ayushman Arogya Mandir AAM. It also talks about Training of Trainers (ToT) programs for healthcare workers, including ASHA and ANM workers. The Ministry is organizing these programs, which implies they might be providing financial support through NAM.
+
+Additionally, under part (c), the Ministry supports State/UT Governments for BCC and IEC activities under NAM."
+AU4806,ayush,Q1,AOGUSY योजना के लिए कुल कितना बजट निर्धारित किया गया है?,,english,sarvam,"दस्तावेज़ में उल्लिखित ""आयुष स्वास्थ्य योजना"" (Ayurswasthya Yojana) के लिए कुल बजट राशि का कोई स्पष्ट उल्लेख नहीं किया गया है। दस्तावेज़ में केवल योजना के उद्द"
+AU4806,ayush,Q2,अब तक कितनी ASU&H pharmacies और Drug Testing Laboratories को वित्तीय सहायता दी गई है?,,english,sarvam,दस्तावेज़ में उल्लिखित योजनाओं (जैसे आयुष और सार्वजनिक स्वास
+AU4806,ayush,Q3,2022-23 से 2024-25 के बीच NAM के तहत कुल कितनी केंद्रीय राशि जारी की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total central funds released under NAM between 2022-23 and 2024-25. First, I need to check the provided document to see if there's any mention of NAM (which I assume stands for National Ayush Mission) and the financial details for those years.
+
+Looking through the document, the schemes mentioned are the IEC Scheme and the Ayurswasthya Yojana. The Ayurswasthya Yojana is described as a Central Sector Scheme starting from FY 2021-22 with two components. However, there's no mention of NAM in the document. The schemes listed are under the Ministry of Ayush, but the names don't match NAM. The document talks about Ayurswasthya Yojana and IEC, but not NAM. Since the question specifically asks about NAM, and the document doesn't reference"
+AU4806,ayush,Q4,ASU&H दवाओं की गुणवत्ता सुनिश्चित करने के लिए कौन सा कानूनी ढांचा लागू है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the legal framework implemented to ensure the quality of ASU&H (Ayurveda, Siddha, Unani, and Homeopathy) medicines. The provided document from the Ministry of Ayush talks about various schemes and programs but doesn't explicitly mention any legal frameworks.
+
+First, I need to recall if there's a specific act or regulation related to these medicines. I remember that in India, the AYUSH systems are regulated under different acts. For example, Ayurveda is covered under the Ayurvedic Drugs and Cosmetics Act, 1940. Similarly, Siddha has the Siddha Drugs and Cosmetics Act, 1940, Unani under the Unani Drugs and Cosmetics Act, 1940, and Homeopathy under the Drugs and Cosmetics Act, 1940. These acts set the standards for the quality and safety of their respective"
+AU4806,ayush,Q5,"PHC, CHC और जिला अस्पतालों में AYUSH सेवाओं के एकीकरण के लिए सरकार ने कौन सी रणनीति अपनाई है?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the strategy the government has adopted to integrate AYUSH services into PHCs, CHCs, and district hospitals. The document provided mentions several schemes under the Ministry of Ayush.
+
+First, I need to look through the document to find any mention of integrating AYUSH into primary health centers, community health centers, and district hospitals. The document talks about two main schemes: the IEC scheme and the Ayushaswasthya Yojana. 
+
+The IEC scheme focuses on awareness through events and campaigns, but that's more about promoting AYUSH rather than integrating services into healthcare facilities. The Ayushaswasthya Yojana has two components: Ayush and Public Health, and Centre of Excellence. The Ayush and Public Health component's objectives include promoting AYUSH interventions in community health care and integrating them into public health to support SDGs 2 and 3. This seems relevant because integrating into"
+AU5648,ayush,Q1,रिक्त पदों का आकलन करने की जिम्मेदारी किसकी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking who is responsible for assessing the vacant positions in Ayush facilities. The document provided is in English, so I need to read through it carefully.
+
+The document mentions that Public Health is a State subject. The primary responsibility lies with the respective State or UT Government. They are responsible for assessing the number of vacant positions in Ayush facilities, including government hospitals and health centers. This includes analyzing the availability of trained manpower like Ayush doctors and pharmacists across the country and conducting timely recruitment under the National Ayush Mission (NAM).
+
+The rest of the document talks about components under NAM for setting up hospitals and upgrading facilities, which include provisions for manpower deployment. But the key point here is the initial statement that the responsibility is with the State/UT Governments. The answer should be straightforward once I extract that part correctly. The user wants the answer in Hindi, so I need to translate the response accurately without losing the meaning."
+AU5648,ayush,Q2,NAM के तहत कितने बिस्तरों वाले एकीकृत आयुष अस्पताल स्थापित किए जा सकते हैं?,,english,sarvam,उत्तर: राष्ट्रीय आयुष मिशन (NAM) के तहत **
+AU5648,ayush,Q3,Ayushman Arogya Mandir किसके अंतर्गत संचालित होता है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking under which program the Ayushman Arogya Mandir is operated. The document provided is in Hindi, so I need to read through it carefully.
+
+First, I'll look for mentions of ""Ayushman Arogya Mandir"" in the text. The document talks about the National Ayush Mission (NAM) and its components. Specifically, it mentions that under NAM, there are components like setting up Integrated Ayush Hospitals, upgrading standalone Ayush Hospitals, operationalizing Ayushman Arogya Mandir, and Ayush Public Health Programmes. The key part here is ""operationalization of Ayushman Arogya Mandir (Ayush)"" which is listed under the components of NAM. 
+
+The question is asking which program it's under, so the answer should be the National Ayush Mission. The document also mentions that states can avail financial assistance through their proposals under NAM"
+AU5648,ayush,Q4,राज्य सरकारें NAM के तहत वित्तीय सहायता कैसे प्राप्त करती हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how state governments can obtain financial assistance under the National Ayush Mission (NAM). The document provided is in Hindi, so I need to parse that carefully.
+
+First, I'll read through the document again to make sure I understand the key points. The document mentions that public health is a state subject, so the primary responsibility for assessing vacant positions in Ayush facilities, including government hospitals and health centers, lies with the respective state or UT governments. However, under NAM, there are components like setting up integrated Ayush hospitals, upgrading existing ones, operationalizing Ayushman Arogya Mandir, and public health programs. These components include provisions for manpower deployment.
+
+The crucial part here is the last sentence: ""State/UT Governments may avail the financial assistance by submitting suitable proposals through State Annual Action Plans (SAAPs) as per the provisions of the NAM guideline."" So the answer should be that states submit"
+AU5648,ayush,Q5,क्या भर्ती की जिम्मेदारी केंद्र सरकार की है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether the responsibility for recruitment lies with the central government. The document provided is in English, so I need to read through it carefully.
+
+The document mentions that Public Health is a State subject. The primary responsibility to assess vacant positions in Ayush facilities, including government hospitals and health centers, and to analyze the availability of trained manpower like Ayush doctors and pharmacists across the country, as well as conduct timely recruitment under the National Ayush Mission (NAM), lies with the respective State/UT Governments. However, under NAM, there are components for setting up hospitals and upgrading existing ones, which include provisions for deploying manpower. The states can avail financial assistance by submitting proposals through their State Annual Action Plans (SAAPs) as per NAM guidelines.
+
+So, the key points here are that while the central government has the NAM which includes provisions for manpower deployment, the actual responsibility for assessing vacancies and conducting"
+AU414,education,Q1,केंद्रीय उच्च शिक्षण संस्थानों में एसोसिएट प्रोफेसर की भर्ती की शक्ति किसके पास होती है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about who has the authority to recruit Associate Professors in Central Higher Education Institutions (CHEIs) under the Ministry of Education.
+
+First, I need to refer to the provided document. The document mentions that CHEIs, including Central Universities, are autonomous organizations established under Central Acts of Parliament. It states that faculty recruitment, including Associate Professors, is done within the institutions themselves according to their Acts and Regulations. The key point here is that the recruitment powers are vested with the respective Board of Governors/Executive Committee/Board of Management. The Ministry doesn't have an active role in this process.
+
+The document also talks about the Central Educational Institutions (Reservation in Teachers Cadre) Act, 2019, which deals with reservations but doesn't change the authority for recruitment. The special recruitment drives in 2021 were initiated by the Ministry, but the actual recruitment is still handled by the"
+AU414,education,Q2,"शिक्षक कैडर में SC, ST, OBC और EWS के लिए आरक्षण कितने प्रतिशत है?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the percentage of reservation for SC, ST, OBC, and EWS in the teacher cadre under the Central Higher Education Institutions (CHEIs). 
+
+First, I need to refer to the provided document. The relevant section mentions the Central Educational Institutions (Reservation in Teachers Cadre) Act, 2019. According to the document, the reservation percentages are specified as follows: 15% for SCs, 7.5% for STs, 27% for socially and educationally backward classes (which is OBC), and 10% for Economically Weaker Sections (EWS). The notification date is 12.7.2019.
+
+I should make sure there's no other information in the document that might contradict or update these percentages. The rest of the text talks about the recruitment process and the special drive in 2021, but those"
+AU414,education,Q3,24.10.2025 तक मिशन मोड में कुल कितने पद भरे गए?,,english,sarvam,"दस्तावेज़ में उल्लेखित जानकारी के अनुसार, अगस्त 2021 में केंद्रीय उच्च शिक्षा संस्थानों (CHEIs) को मिशन मोड में बैकलॉग रिक्तियों को भरने के लिए विशेष अभियान"
+AU414,education,Q4,केंद्रीय विश्वविद्यालयों ने इनमें से कितने पद भरे?,,english,sarvam,"दस्तावेज़ में उल्लेखित जानकारी के अनुसार,"
+AU414,education,Q5,क्या राज्य विश्वविद्यालयों के रिक्त पदों का डेटा केंद्र स्तर पर रखा जाता है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether the data on vacant positions in state universities is maintained at the central level.
+
+First, I need to refer back to the provided document. The document mentions that Central Higher Education Institutions (CHEIs) are under the Ministry of Education and their vacancies are handled by the institutions themselves. Then, there's a specific section about State Universities. It says, ""State Universities are established through respective State Acts and vacancies therein are filled by the concerned State Governments/Universities themselves. Vacancy details of State Universities are not maintained centrally.""
+
+So, the key point here is that the document explicitly states that vacancy details for State Universities are not kept centrally. The answer should be a clear ""No"" based on that information. I need to make sure there's no mention of central maintenance of such data for state universities. The document only talks about CHEIs being autonomous and handling their own recruitment, but specifically for state universities, it"
+AU2540,education,Q1,NEP 2020 के अनुसार कम से कम किस कक्षा तक मातृभाषा/स्थानीय भाषा को माध्यम बनाने की सिफारिश की गई है?,,english,sarvam,राष्ट्रीय शिक्षा नीति
+AU2540,education,Q2,तीन-भाषा सूत्र में R1 किसे कहा गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the three-language formula (तीन-भाषा सूत्र) mentioned in the NEP 2020 and specifically what R1 refers to.
+
+First, I need to recall the document provided. The document states that the three-language formula will continue, with flexibility, and that the choice of languages will be determined by the states, regions, and students. The key part here is that the three languages learned by children are the choices of the states, regions, and students. 
+
+The question is about R1. In the context of the three-language formula, typically, the first language (R1) is the mother tongue or regional language. The document mentions that until Grade 5, preferably up to Grade 8, the medium of instruction should be the home language/mother tongue/local language. After that, the home/local language continues to be taught as a subject. Then, the three-language formula comes into play"
+AU2540,education,Q3,भारतीय भाषाओं में अकादमिक लेखन और अनुवाद को बढ़ावा देने के लिए UGC ने कौन-सा प्रोजेक्ट शुरू किया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which project the UGC (University Grants Commission) has started to promote academic writing and translation in Indian languages. The provided document talks about NEP 2020 and NCF-SE 2023, focusing on mother tongue-based education and multilingualism.
+
+First, I need to recall if the document mentions any specific UGC projects. The document discusses policies promoting Indian languages in schools, the three-language formula, and the importance of mother tongue education. However, it doesn't explicitly mention any UGC project by name. 
+
+Wait, the user might be referring to a project that's part of the NEP 2020 implementation. The NEP 2020 does emphasize multilingual education and promoting Indian languages. The UGC often implements initiatives under the NEP. For example, the National Education Policy 2020 includes provisions for academic writing and translation in regional"
+AU2540,education,Q4,AICTE की भाषा नीति किस राष्ट्रीय शिक्षा दस्तावेज़ के अनुरूप है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which national education document's language policy aligns with AICTE's policy. The document provided is about NEP 2020 and NCF-SE 2023.
+
+First, I need to recall what AICTE's language policy is. AICTE, the All India Council for Technical Education, is responsible for technical education in India. Their policies often align with the National Education Policy (NEP) 2020, which emphasizes multilingualism and mother tongue-based education.
+
+Looking at the document, it mentions that NEP 2020 and NCF-SE 2023 promote all Indian languages in schools. The key points are mother tongue-based education until at least Grade 5, preferably up to Grade 8, and the three-language formula with flexibility. The document also states that these policies were developed after nationwide consultations, which suggests they are comprehensive and widely accepted"
+AU2540,education,Q5,क्या NEP 2020 के तहत किसी राज्य पर कोई भाषा थोपी जाएगी?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether the NEP 2020 imposes any language on a state. I need to refer to the provided document to find the answer.
+
+First, I'll look through the document. The relevant part mentions the three-language formula. The document states that the three-language formula will continue but with greater flexibility. It specifically says, ""no language will be imposed on any State."" That's a direct statement against imposing languages. 
+
+Also, the policy emphasizes that the choice of languages will be determined by the states, regions, and students. So the states have the autonomy to decide which three languages are taught, which means there's no imposition. The key points here are flexibility and state choice. 
+
+I should make sure there's no mention of mandatory languages being forced. The document clearly states that the three languages are the choices of the states and students, and no language is imposed. Therefore, the answer should be that"
+AU2749,education,Q1,PM-Vidyalaxmi के तहत कितने से अधिक शिक्षा ऋण स्वीकृत किए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many more education loans have been approved under the PM-Vidyalaxmi scheme. The document mentions that between 25th February 2025 and 2nd March 2026, more than 68,000 PM-Vidyalaxmi education loans were sanctioned. The answer should be straightforward, but I need to make sure I'm interpreting the numbers correctly.
+
+First, the key sentence here is: ""During 25th February 2025 and 2nd March 2026, more than 68,000 PM -Vidyalaxmi education loans have been sanctioned."" The question is asking for the number of loans approved, which is directly stated as over 68,000. The user might be confused between sanctioned and disbursed, but the question specifically asks about sanctioned loans. The document also mentions the sanctioned"
+AU2749,education,Q2,स्वीकृत कुल ऋण राशि कितनी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the total approved loan amount under the PM-Vidyalaxmi scheme. I need to look through the provided document to find the relevant information.
+
+First, I'll scan the document for numbers related to sanctioned loans. The document mentions that between 25th February 2025 and 2nd March 2026, more than 68,000 loans were sanctioned, and the sanctioned amount is ₹9118 crores. That seems like the key figure here. The question specifically asks for the total approved amount, which is the sanctioned amount. The other numbers like disbursed amounts or interest subventions are probably not needed here. I should make sure there's no other figure mentioned that could be confused with this. The part about the gap between sanctioned and disbursed amounts explains why there's a difference, but the sanctioned total is clearly stated as ₹91"
+AU2749,education,Q3,कुल कितनी शिकायतें प्राप्त हुईं और उनमें से कितनी हल की गईं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the total number of complaints received and how many were resolved. The document provided is about the PM-Vidyalaxmi scheme, which provides education loans.
+
+First, I need to go through the document carefully. The document mentions that the PM Vidyalaxmi portal started operating from 25th February 2025. It also states that between 25th February 2025 and 2nd March 2026, over 68,000 loans were sanctioned, totaling ₹9118 crores. There's a part about the gap between sanctioned loans and disbursement, but that's about the amount, not complaints.
+
+The document also mentions a portal where students can apply for loans and interest subvention. It provides state-wise and bank-wise data on applications, sanctioned, rejected, disbursed, and pending loans. However, the exact"
+AU2749,education,Q4,कितने QHEIs को PM-Vidyalaxmi योजना के अंतर्गत शामिल किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many QHEIs (Quality Higher Education Institutions) are included under the PM-Vidyalaxmi scheme. I need to look through the provided document to find this information.
+
+First, I'll read through the document again carefully. The document mentions that the PM-Vidyalaxmi scheme provides collateral-free loans to students admitted to top Quality Higher Education Institutions (QHEIs). It talks about the scheme's objectives, the interest subvention for certain income groups, the online portal, and some statistics about loans sanctioned and disbursed. However, when I look for the exact number of QHEIs included, I don't see any specific number mentioned. The document provides data on the number of loans sanctioned (over 68,000) and the total amount (₹9118 crores), but there's no mention of the count of institutions. The portal link is given,"
+AU2749,education,Q5,क्या Tier-II और Tier-III शहरों के छात्र भी इस योजना के पात्र हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether students from Tier-II and Tier-III cities are eligible for the PM-Vidyalaxmi scheme. First, I need to refer back to the provided document to find any mention of eligibility criteria related to the location of the students.
+
+Looking through the document, the main points are about the scheme's objectives, the loan details, interest subvention for lower-income families, and the online portal. The document mentions that the scheme is for students admitted to top Quality Higher Education Institutions (QHEIs) and those who desire the loan. There's no explicit mention of Tier-II or Tier-III cities in the eligibility criteria. However, the scheme's goal is to ensure no student is denied higher education due to financial constraints, which implies it's available to all eligible students regardless of their city tier. The interest subvention is based on family income, not location. Since the document doesn't restrict eligibility by city tier, the answer should be"
+AU3703,education,Q1,PM-USHA योजना का कुल वित्तीय प्रावधान कितना है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total financial provision for the PM-USHA scheme. I need to find the answer in the provided document.
+
+First, I'll scan through the document to locate mentions of PM-USHA. The third paragraph talks about the launch of PM-USHA in June 2023. It mentions an outlay of Rs. 12,926.10 crore for the period 2023-24 to 2025-26. That seems like the total amount allocated. 
+
+Wait, the question is about the total financial provision. The document states ""with an outlay of Rs. 12926.10 crore"". The word ""outlay"" here refers to the total budget allocated. The extension dates mentioned are for project completion, but the total amount remains the same. So the answer should be 12,926.1"
+AU3703,education,Q2,फतेहगढ़ साहिब लोकसभा क्षेत्र में कुल कितनी HEIs हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total number of Higher Education Institutions (HEIs) in the Fatehgarh Sahib Lok Sabha constituency. The document provided has a section that mentions this.
+
+First, I need to locate the relevant part in the document. The text states: ""As per AISHE 2022-23 (provisional) are as follows: Number of HEIs Institutions Punjab Fatehgarh Sahib District University 40 3 College 1,040 23 Standalone 353 9 All HEIs 1,433 35"". 
+
+Wait, the way it's presented here might be a bit confusing. Let me parse this. The columns seem to be ""Institutions"" and then numbers for Punjab and Fatehgarh Sahib District. The line ""All HEIs 1,433 35"""
+AU3703,education,Q3,फतेहगढ़ साहिब जिले में कितने प्राथमिक विद्यालय हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the number of primary schools in Fatehgarh Sahib district. The document provided mentions several details about education in Punjab, specifically Fatehgarh Sahib.
+
+First, I need to locate the relevant section in the document. The last paragraph starts with ""As per UDISE+ the number of primary, upper primary, secondary..."" but it seems cut off. The document ends there, so the data might be incomplete. However, the previous paragraphs talk about higher education institutions (HEIs) in Fatehgarh Sahib, listing universities, colleges, and standalone institutions. But the question is about primary schools, which are part of school education, not higher education.
+
+The document mentions that education is in the concurrent list, and most schools are under state/UT governments. It also discusses the PM-USHA scheme and some projects in Punjab, including Fatehgarh Sahib. However, the specific numbers for primary schools"
+AU3703,education,Q4,फतेहगढ़ साहिब क्षेत्र में पंजाब के लिए कितने PM SHRI स्कूल बताए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many PM SHRI schools are mentioned for the Fatehgarh Sahib area in Punjab.
+
+First, I need to go through the provided document carefully. The document talks about various educational schemes and initiatives under the National Education Policy 2020, specifically mentioning the PM-USHA scheme. It details the allocation of funds and projects in Punjab, including Fatehgarh Sahib district. 
+
+Looking at the section about Punjab, it states that 86 projects worth ₹581.61 crore have been approved. It breaks down the projects in Fatehgarh Sahib district into three districts: Fatehgarh Sahib, Ludhiana, and Malerkotla. The numbers given are 2 units (₹6 crore), 7 units (₹24 crore), and 2 units (₹4 crore) respectively. However, the document refers to"
+AU3703,education,Q5,2025-26 में डिजिटल लर्निंग के लिए कितनी राशि जारी की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the amount released for digital learning in 2025-26. First, I need to go through the provided document carefully.
+
+The document mentions the launch of PM-USHA (third phase of RUSA) from 2023-24 to 2025-26 with an outlay of ₹12,926.10 crore. It also states that the scheme was extended till March 31, 2028, and for ongoing RUSA projects until September 30, 2026. However, the question specifically asks about the amount allocated for digital learning in 2025-26. 
+
+Looking through the details, the document talks about infrastructure upgradation, multidisciplinary education, skill development, and quality initiatives under the scheme. But there's no explicit mention of a specific amount allocated for digital learning. The total out"
+AU3821,education,Q1,पिछले पाँच वर्षों और वर्तमान वित्तीय वर्ष में प्रमुख तकनीकी संस्थानों के लिए कुल कितनी राशि स्वीकृत की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the total amount sanctioned for premier technical educational institutions over the last five years and the current financial year (FY 2020-21 to 2025-26). 
+
+First, I need to locate the relevant information in the provided document. The document mentions that the Government has sanctioned Rs. 99494.24 crore during the last five years and the current financial year for institutions like IITs, NITs, IIITs, IISERs, and IISc.
+
+The question specifically asks for the total amount, which is directly stated in the text. The key here is to confirm that the time frame matches: the last five years plus the current FY (2020-21 to 2025-26). The document clearly states the amount as 99,494.24 crore rupees. There"
+AU3821,education,Q2,AI के Centres of Excellence के लिए कुल कितना वित्तीय प्रावधान किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total financial provision made for AI Centres of Excellence. The document mentions that the government has sanctioned Rs. 99,494.24 crore over the last five years and the current financial year (FY 2020-21 to 2025-26) for premier technical institutions like IITs, NITs, IIITs, IISERs, and IISc. These funds are for teaching, research, and innovation.
+
+The question specifically asks about AI Centres of Excellence. The document states that these institutions undertake research in areas like Advanced Computing, which includes AI and Quantum Computing. However, the total amount mentioned is for all these institutions collectively, not just AI. The answer should be the total sanctioned amount, as the document doesn't break down the funds specifically for AI Centres of Excellence. So the answer is Rs. 99,494"
+AU3821,education,Q3,ANRF की कुल बजटीय राशि कितनी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the total budgetary amount allocated for ANRF. First, I need to check the provided document to find any mention of ANRF.
+
+Looking through the document, the first paragraph talks about the National Education Policy 2020 and mentions funding for HEIs. The second paragraph states that the government has sanctioned Rs. 99,494.24 crore over the last five years and the current financial year (FY 2020-21 to 2025-26) for institutions like IITs, NITs, IIITs, IISERs, and IISc. The third paragraph discusses Research Parks in IITs and IISc, and mentions some specialized centers at IIMs.
+
+Wait, the question is about ANRF. The document mentions ""ANRF"" in the answer section, but in the original text, the acronym isn't explicitly spelled out. However"
+AU3821,education,Q4,2014 से अब तक कितने नए AIIMS स्थापित किए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many new AIIMS have been established since 2014. First, I need to check the provided document to see if there's any mention of AIIMS.
+
+Looking through the document, it talks about the National Education Policy 2020, funding for institutions like IITs, NITs, IIITs, IISERs, and IISc. It mentions Research Parks in eight IITs and IISc Bengaluru, and some IIMs with specialized centers. However, there's no mention of AIIMS (All India Institute of Medical Sciences) anywhere in the text. The document focuses on technical and interdisciplinary research in engineering, management, and related fields, but not specifically on medical institutions like AIIMS.
+
+Since the document doesn't provide any information about AIIMS, I can't answer the question based on the given content. The user might have expected data from this document, but it's"
+AU3821,education,Q5,HEFA के तहत अब तक कितनी राशि विभिन्न HEIs को स्वीकृत की गई है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the amount sanctioned under HEFA for various HEIs so far. First, I need to check the provided document to find any mention of HEFA and the sanctioned amount.
+
+Looking through the document, the first paragraph mentions that the Government has sanctioned Rs. 99494.24 crore during the last five years and the current financial year (FY 2020-21 to 2025-26) for premier technical educational institutions like IITs, NITs, IIITs, IISERs, and IISc. The question specifically asks about HEFA, but the document doesn't mention HEFA by name. However, HEFA (Higher Education Funding Agency) is known to be involved in funding such institutions. The amount mentioned here is likely the one under HEFA's initiatives. Since the document doesn't explicitly state HEFA, but the context matches HEFA's"
+AU1387,labour,Q1,केंद्रीय क्षेत्र में कृषि क्षेत्र के अकुशल महिला श्रमिकों के लिए Area A में दैनिक न्यूनतम मजदूरी कितनी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the daily minimum wage for unskilled female agricultural workers in Area A under the central sphere as of 1st October 2025.
+
+First, I need to refer to the provided document. The document mentions that the Minimum Wages Act, 1948 has been replaced by the Code on Wages 2019, effective from 21st November 2025. However, the rates mentioned are as of 1st October 2025, which is before the Code came into effect. That might be a point of confusion. But the document states that the Code empowers both Central and State Governments to set minimum wages. However, the specific rates are in the Annexure, which isn't provided here.
+
+The user's question is about Area A in the central sphere. The document says that under the Code on Wages 2019, wages"
+AU1387,labour,Q2,निर्माण क्षेत्र के highly-skilled श्रमिकों के लिए Area C में मजदूरी कितनी निर्धारित है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the minimum wage for highly-skilled workers in the construction sector in Area C as per the provided document.
+
+First, I need to check the document. The document mentions that the Minimum Wages Act, 1948 has been replaced by the Code on Wages 2019, effective from 21.11.2025. It states that both Central and State Governments can set minimum wages. The document also says that wages are equal for men and women. However, the key part here is the ""Area wise Rates of Minimum Wages in the Central Sphere (as on 01.10.2025) is at Annexure.""
+
+The problem is that the annexure isn't provided here. The document only mentions that the rates are in the annexure but doesn't include the actual data. Without the annexure, I can't find the specific rate"
+AU1387,labour,Q3,"क्या Code on Wages, 2019 के अनुसार पुरुष और महिलाओं के लिए मजदूरी समान है?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether the Code on Wages, 2019 in India states that wages for men and women are equal.
+
+First, I need to refer to the provided document. The document mentions that under the Code on Wages 2019, wages are equal for men and women. The exact line says, ""As per Code on Wages, 2019, wages are equal for men and women."" That's a direct statement. 
+
+I should make sure there's no ambiguity here. The document doesn't mention any exceptions or conditions, so it's straightforward. The answer should confirm that yes, according to the Code, wages are equal. Also, the effective date is 21.11.2025, but the question is about the provision itself, not the date. The annexure about area-wise rates might be additional info but isn't relevant to the equality part."
+AU1387,labour,Q4,Stone crushing में 1.0 से 1.5 inch आकार के पत्थर के लिए प्रति ट्रक मजदूरी कितनी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the minimum wage for stone crushing work, specifically for stones of 1.0 to 1.5 inches in size per truck. The document provided mentions the Code on Wages 2019, which replaced the Minimum Wages Act, 1948. It states that the appropriate government (Central or State) sets minimum wages. However, the document doesn't provide specific rates for stone crushing or different stone sizes. The annexure mentioned only refers to area-wise rates in the Central Sphere as of 01.10.2025, but the actual data isn't included here.
+
+Since the document doesn't have the exact figures for stone crushing wages, especially broken down by stone size, I can't provide a specific amount. The answer should explain that the information isn't available in the provided document and suggest checking with the relevant government authorities or the annexure for area-specific rates. Also"
+AU1387,labour,Q5,Area C में कौन-कौन से क्षेत्र शामिल होते हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which areas are included in Area C according to the provided document. The document mentions the Code on Wages 2019 and talks about minimum wages in the Central Sphere as of 01.10.2025, with the rates listed in an annexure.
+
+First, I need to check the document again. The user provided the text, and the key part here is the mention of ""Area wise Rates of Minimum Wages in the Central Sphere (as on 01.10.2025) is at Annexure."" The problem is that the annexure isn't included in the provided text. Without the annexure, there's no way to know which areas are under Area C. The document only states that the rates are listed there but doesn't provide the actual data.
+
+The user might be under the impression that the annexure is part of the document, but since"
+AU2463,labour,Q1,चारों Labour Codes पूरे देश में किस तिथि से लागू हुए?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking on which date the four Labour Codes came into effect across the country. I need to look through the provided document to find the relevant information.
+
+First, I'll scan through the sections. The document mentions part (c) which states: ""The four Labour Codes... have come into force with effect from 21.11.2025 across the country."" That seems to be the key sentence. The date is written as 21.11.2025, which in the Indian date format is 21st November 2025. 
+
+I should check if there's any other mention of dates elsewhere in the document. The other parts talk about consultations, implementation, and specific provisions but don't mention the effective date again. The answer is clearly in part (c). The user wants the answer in Hindi, so I need to present the date in Hindi script. The date"
+AU2463,labour,Q2,Industrial Relations Code के तहत layoffs/closures की सीमा 100 से बढ़ाकर कितनी की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the increase in the threshold for layoffs or closures under the Industrial Relations Code. The document provided mentions that the Industrial Relations Code, 2020 was passed after consultations and includes provisions to protect workers' interests. Specifically, it talks about strengthening collective bargaining and introducing a two-member tribunal for faster dispute resolution.
+
+Looking at part (d) to (e), there's a mention of Fixed Term Employment (FTE) allowing workers to be engaged for a specified duration with benefits similar to permanent employees. However, the question is about layoffs/closures. The document doesn't explicitly state the increased threshold here. Wait, maybe I missed something. Let me check again.
+
+In the part where it discusses the Industrial Relations Code, 2020, there's a mention of provisions to protect workers' interests. The previous laws required employers to seek government approval for layoffs, retrenchment, or closures if the"
+AU2463,labour,Q3,"Code on Wages, 2019 के लिए कितने राज्यों/केंद्रशासित प्रदेशों ने pre-published rules जारी किए हैं?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many states or union territories have pre-published rules for the Code on Wages, 2019. 
+
+First, I need to refer to the provided document. Let me go through each section carefully.
+
+Looking at part (c) of the document, it mentions that the four Labour Codes came into force from 21.11.2025. Then it states that states/UTs are still finalizing the Rules under these codes. The next part lists the code-wise status of pre-published rules by states/UTs. 
+
+Under point (a) for the Code on Wages, 2019, it says 34. So that's the number. The other codes have 35 each, but the question specifically asks about the Code on Wages, 2019. 
+
+I should make sure there's no other mention of this number"
+AU2463,labour,Q4,Fixed Term Employment के तहत gratuity कितने वर्ष बाद देय होती है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the gratuity period under Fixed Term Employment (FTE) as per the provided document.
+
+First, I need to locate the relevant section in the document. The user mentioned part (d) to (e), so I'll check there. 
+
+Looking at the text: ""The provision of Fixed Term Employment (FTE) has been introduced in the Industrial Relations Code, 2020, allowing engagement of workers for a specified duration. Such workers are entitled to all benefits, at par with permanent employees performing similar work. This provision is expected to reduce contractualization, increase employability and meet workers’ aspirations. They are eligible for gratuity after just one year, instead of five years.""
+
+Ah, here it is. The key sentence is ""They are eligible for gratuity after just one year, instead of five years."" So the answer should be one year. 
+
+I need to make sure there's no other"
+AU2463,labour,Q5,gig और platform workers के लिए कौन-सा विशेष प्रावधान किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the special provisions made for gig and platform workers according to the provided document.
+
+First, I need to go through the document carefully. The document mentions four Labour Codes that came into effect on 21.11.2025. It talks about consultations with stakeholders, implementation efforts, and specific provisions in the Industrial Relations Code, 2020. 
+
+Looking at section (d) to (e), there's a mention of Fixed Term Employment (FTE) introduced in the Industrial Relations Code. FTE allows workers to be engaged for a specified duration with all benefits equal to permanent employees. They get gratuity after one year instead of five. The document states this provision is expected to reduce contractualization, increase employability, and meet workers' aspirations.
+
+Now, the question is about gig and platform workers. The document doesn't explicitly mention ""gig and platform workers"" by name. However, the"
+AU2658,labour,Q1,14 वर्ष से कम आयु के बच्चों के लिए किस प्रकार के कार्य पर पूर्ण प्रतिबंध है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the complete prohibition of work for children under 14 years old according to the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986 in India.
+
+First, I need to refer to the provided document. The document states that the Act prohibits the employment of children below 14 in any occupation and processes, including migrant children. It also mentions that adolescents (14-18) are prohibited from hazardous occupations. However, children can help their families in non-hazardous work after school or during vacations.
+
+The question specifically asks about the complete ban for children under 14. The key point here is ""any occupation and process."" So the answer should mention that there's a total prohibition on all types of work or employment for children below 14, regardless of the nature of the job. The exception mentioned for non-hazardous work after school is for children under"
+AU2658,labour,Q2,14 से 18 वर्ष के किशोरों के लिए किस प्रकार के कार्य पर प्रतिबंध है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the restrictions on work for adolescents aged 14 to 18 years according to the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986.
+
+First, I need to refer back to the provided document. The document mentions that the Act prohibits adolescents in the 14-18 age group from working in hazardous occupations and processes. The key point here is ""hazardous occupations and processes."" 
+
+I should make sure there's no other information in the document that adds to this. The rest of the text talks about the 2016 amendment linking the definition of ""child"" to the Right of Children to Free and Compulsory Education Act, 2009, which probably affects the age of prohibition but not directly the 14-18 group. The other details about the Rules and PENCIL portal are about enforcement mechanisms, not the"
+AU2658,labour,Q3,family enterprise' में बच्चों को कब काम करने की अनुमति है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking when children are allowed to work in a family enterprise according to the provided document.
+
+First, I need to refer back to the document. The relevant part is in section (a) to (e). It says that children are permitted to help their families or family enterprises in non-hazardous occupations or processes, but only after school hours or during vacations. 
+
+Wait, the key points here are ""non-hazardous"" and the timing. The Act prohibits children under 14 from working in any occupation, but there's an exception for helping family in non-hazardous work. The amendment in 2016 linked the definition of ""child"" to the Right of Children to Free and Compulsory Education Act, 2009, which sets the age for compulsory education. So, children below 14 are prohibited, but the exception applies here. 
+
+The answer should mention that children"
+AU2658,labour,Q4,बाल श्रम शिकायतों की निगरानी के लिए कौन-सा ऑनलाइन पोर्टल विकसित किया गया है?,,english,sarvam,बाल श्रम शिकायतों की निगरानी के लिए विकसित किए गए ऑनलाइन पोर्टल का नाम **'PENCIL
+AU2658,labour,Q5,जिला स्तर पर अधिनियम के प्रवर्तन के लिए किन संस्थागत व्यवस्थाओं का प्रावधान है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the institutional arrangements at the district level for enforcing the Child and Adolescent Labour (Prohibition and Regulation) Act. The document mentions that the government framed the Child and Adolescent Labour (Prohibition and Regulation) Rules, 1988. These rules include provisions for a District Nodal Officer (DNO) and a Task Force at the district level. The purpose of these is to ensure the Act's provisions are properly enforced. Additionally, there's an online portal called PENCIL for monitoring and tracking complaints.
+
+So, the key points here are the District Nodal Officer and the Task Force. The answer should list these two as the institutional arrangements. The online portal PENCIL is also mentioned, but the question specifically asks about institutional arrangements at the district level. The portal is more of a monitoring tool rather than an institutional structure. Therefore, the main answer should focus on the DNO and the Task"
+AU3868,labour,Q1,2019-20 में ग्रामीण कृषि एवं संबद्ध क्षेत्र में कार्यरत श्रमिकों का प्रतिशत कितना था?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the percentage of rural workers engaged in agriculture and allied sectors in the year 2019-20, based on the provided document.
+
+First, I need to locate the relevant data in the document. The document mentions a table under part (a) and (b) which lists the PLFS survey years and the corresponding percentages. The table starts with S. No. 1 for 2019-20. Scanning through the table, the first entry is 2019-20 with 61.5%. 
+
+I should confirm that this is the correct figure. The text also states that there's been a marginal decline over the last five years from 61.5% in 2019-20 to 59.8% in 2023-24. This aligns with the table data. The question specifically asks for"
+AU3868,labour,Q2,2024-25 में खाद्यान्न उत्पादन कितना बताया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the food grain production in 2024-25 as mentioned in the provided document.
+
+First, I need to locate the relevant section in the document. The document is in Hindi, so I'll read through it carefully. The part under (a) and (b) mentions that the government has implemented various policies leading to increased productivity and production. 
+
+Looking at the numbers, it says: ""food grain production has seen a substantial increase—from 297.5 million tonnes in 2019-20 to 353.96 million tonnes in 2024–25 (as per third advance estimates)."" 
+
+So the key figure here is 353.96 million tonnes for 2024-25. The user's question specifically asks for the food grain production in 2024-25, and this"
+AU3868,labour,Q3,सरकार कृषि श्रम की कमी दूर करने के लिए कौन-सी mechanization योजना चला रही है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which mechanization scheme the government is running to address the shortage of agricultural labor. The document provided mentions several initiatives.
+
+First, I need to look through the text for any mention of mechanization schemes. The relevant section is under part (a) & (b) where it talks about policies and programs. The document states: ""Programs such as the Sub-Mission on Agricultural Mechanization (SMAM), Krishi Vigyan Kendras (KVKs), and targeted skill development schemes are empowering farmers to adopt timely, efficient, and technology-driven agricultural practices.""
+
+So, the key here is to identify the mechanization scheme. The Sub-Mission on Agricultural Mechanization (SMAM) is explicitly mentioned as part of the initiatives. KVKs are more about knowledge and skill development, and the skill schemes are for training. The question specifically asks for the mechanization scheme, so SMAM is the direct answer. I should"
+AU3868,labour,Q4,ICAR ने देशभर में कितने Krishi Vigyan Kendras स्थापित किए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many Krishi Vigyan Kendras (KVKs) have been established by ICAR across the country.
+
+First, I need to look through the provided document. The document mentions KVKs in the context of government initiatives. Specifically, it says: ""Programs such as the Sub-Mission on Agricultural Mechanization (SMAM), Krishi Vigyan Kendras (KVKs), and targeted skill development schemes are empowering farmers to adopt timely, efficient, and technology-driven agricultural practices.""
+
+However, the document doesn't provide the exact number of KVKs established. It talks about the increase in agricultural workforce percentage and production statistics, but not the count of KVKs. Since the answer isn't present in the given text, I should state that the information isn't available in the provided document. The user might need to refer to official ICAR sources or recent government reports for the exact number.
+</think"
+AU3868,labour,Q5,KVKs किसानों के लिए कौन-सी दो प्रमुख गतिविधियाँ करते हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the two main activities of KVKs (Krishi Vigyan Kendras) for farmers, based on the provided document.
+
+First, I need to locate the relevant section in the document. The document mentions KVKs in the context of government initiatives. Let me scan through the text again. 
+
+Here's the part: ""Programs such as the Sub-Mission on Agricultural Mechanization (SMAM), Krishi Vigyan Kendras (KVKs), and targeted skill development schemes are empowering farmers to adopt timely, efficient, and technology-driven agricultural practices."" 
+
+So, the sentence says that KVKs are part of the programs that empower farmers by helping them adopt timely, efficient, and technology-driven practices. But the question is about the two main activities. The document doesn't explicitly list two separate activities for KVKs. However, the sentence mentions ""promoting mechanization"" and ""enh"
+AU5935,labour,Q1,महाराष्ट्र में 2023-24 में महिलाओं की Labour Force Participation Rate कितनी थी?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking for the Labour Force Participation Rate (LFPR) for women in Maharashtra in the year 2023-24.
+
+First, I need to go through the provided document carefully. The document mentions data from the Periodic Labour Force Survey (PLFS) conducted by MoSPI. The key section here is where it talks about Maharashtra specifically. 
+
+Looking at the paragraph, it states: ""the estimated Labour Force Participation Rate (LFPR) on usual status for males of age 15 years and above was 76.4% in 2021-22, 77.4% in 2022-23 and 77.2% in 2023-24 and for females of age 15 years and above was 38.4%, 40.7% and 40.1% in the State of"
+AU5935,labour,Q2,महिलाओं के लिए paid maternity leave कितने सप्ताह की है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the duration of paid maternity leave for women according to the provided document.
+
+First, I need to locate the relevant section in the document. The document mentions several labor codes implemented by the government. Specifically, under the Code on Social Security, 2020, there are provisions to promote female labor participation. 
+
+Looking at the list of provisions, point (i) talks about grievance committees, and point (ii) mentions maternity leave. The text states ""Up to 26 weeks of paid maternity leave, along with 12 weeks for adoptive and commissi..."" It seems like the sentence got cut off, but the key part here is the 26 weeks for maternity leave. 
+
+I should confirm that this is the correct figure and that there's no other mention of maternity leave elsewhere in the document. The rest of the document discusses LFPR and WPR statistics,"
+AU5935,labour,Q3,कार्यस्थल पर महिलाओं की सुरक्षा के लिए कौन-सा इलेक्ट्रॉनिक पोर्टल उपलब्ध है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which electronic portal is available for the safety of women at the workplace. The document provided mentions several labor codes and schemes.
+
+First, I need to look through the document for any mention of electronic portals related to women's safety. The document talks about the four labor codes implemented from November 21, 2025, which include the Occupational Safety, Health and Working Conditions Code, 2020. This code likely has provisions for workplace safety. 
+
+The document lists provisions under these codes, such as maternity leave and grievance committees. However, the question specifically asks for an electronic portal. The document doesn't explicitly name a portal, but the last part mentions that details of employment schemes can be found at https://dge.gov.in/dge/schemes_programmes. 
+
+Wait, but the user is asking about a portal for women's safety. The Occupational Safety, Health and"
+AU5935,labour,Q4,क्या महिलाएँ सुबह 6 बजे से पहले या शाम 7 बजे के बाद काम कर सकती हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking whether women can work before 6 AM or after 7 PM in India, based on the provided document.
+
+First, I need to check the document for any mention of working hours or labor laws that might restrict women's working times. The document talks about the four Labour Codes implemented in 2025, which include the Occupational Safety, Health and Working Conditions Code, 2020. Let me look into that part.
+
+The document mentions that the new codes have provisions to promote female labor participation. The specific points listed are about grievance committees and maternity leave. There's no direct mention of working hours restrictions. The Occupational Safety, Health and Working Conditions Code, 2020, which is part of the four codes, might have provisions on working hours, but the document doesn't specify any gender-based restrictions. 
+
+In India, traditionally, some older laws like the Factories Act had"
+AU5935,labour,Q5,महिला कार्यबल भागीदारी बढ़ाने के लिए 2024-25 बजट में कौन-सी सुविधा घोषित की गई?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which facility was announced in the 2024-25 budget to increase female labor force participation. The document provided talks about various government schemes and labor codes.
+
+First, I need to look through the document for mentions of the 2024-25 budget. The document mentions the four labor codes implemented from November 21, 2025. Wait, the date here is 2025, but the question is about the 2024-25 budget. Maybe there's a typo in the document, or perhaps the implementation date is correct. The labor codes include provisions like maternity leave and grievance committees. The document also states that the government is implementing various schemes to boost female LFPR, but the specific schemes are linked to a website. However, the question is about the 2024-25 budget. The document doesn't explicitly mention the"
+AU2208,women,Q1,देशभर में कुल कितने Anganwadi centres के माध्यम से Mission Poshan 2.0 लागू किया जा रहा है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many Anganwadi centers are implementing Mission Poshan 2.0 across the country.
+
+First, I need to look through the provided document. The document mentions that Mission Poshan 2.0 is implemented through a network of over 14 Lakh Anganwadi centres. The exact line says: ""Three of the six services... are provided through NHM & Public Health Infrastructure. Mission Saksham Anganwadi and Poshan 2.0 is a Centrally Sponsored scheme... The package of six services... is provided under Mission Poshan 2.0 through the network of over 14 Lakh Anganwadi centres (AWCs) across the country.""
+
+So the key number here is ""14 Lakh."" In Hindi, ""Lakh"" means 100,000. Therefore, 14 Lakh translates to 1,4"
+AU2208,women,Q2,1 अक्टूबर 2018 से AWWs का मासिक honorarium कितना बढ़ाया गया?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the increase in the monthly honorarium for Anganwadi Workers (AWWs) starting from 1st October 2018.
+
+First, I need to find the relevant part in the provided document. Let me scan through the text. The document mentions that from 1st October 2018, the Government of India enhanced the honorarium for AWWs from Rs.3,000 to Rs.4,500 per month. So the increase would be the difference between these two amounts.
+
+Calculating the difference: 4,500 minus 3,000 equals 1,500. Therefore, the honorarium was increased by Rs.1,500 per month. The question specifically asks for the amount of the increase, so the answer should be Rs.1,500. I should make sure there's no other information that"
+AU2208,women,Q3,उत्तर प्रदेश में in-position AWWs की संख्या कितनी है?,,english,sarvam,दस्ताव
+AU2208,women,Q4,PM POSHAN Scheme के तहत cook-cum-helpers को प्रति माह कितना honorarium दिया जाता है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the monthly honorarium given to cook-cum-helpers under the PM POSHAN Scheme. First, I need to refer to the provided document.
+
+Looking through the document, there's a section discussing honorariums for Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs). The document mentions that from October 1, 2018, the honorarium for AWWs was increased from ₹3,000 to ₹4,500 per month, and for AWHs from ₹1,500 to ₹2,250 per month. However, the question specifically mentions ""cook-cum-helpers."" 
+
+Wait, the document refers to Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs). The term ""cook-cum-helper"" isn't explicitly mentioned here"
+AU2208,women,Q5,Lakshadweep में cook-cum-helpers का मासिक honorarium कितना है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the monthly honorarium for cook-cum-helpers in Lakshadweep. First, I need to check the provided document to find relevant information.
+
+Looking at the document, it mentions that Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs) receive honorariums. The document states that from October 1, 2018, the honorarium for AWWs was increased to Rs. 4,500 per month and AWHs to Rs. 2,250 per month. However, the question specifically asks about cook-cum-helpers in Lakshadweep. 
+
+The document doesn't explicitly mention cook-cum-helpers. It refers to AWWs and AWHs. There's a possibility that cook-cum-helpers might be a different category or part of the AWHs. The document also notes that"
+AU2222,women,Q1,District Mental Health Programme कितने जिलों में लागू किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking in which districts the District Mental Health Programme (DMHP) has been implemented. The provided document is in Hindi, so I need to read through it carefully.
+
+First, I'll look for any mention of DMHP. The document talks about the Mental Health Care Act, 2017 and the role of the central and state governments in mental health services. It mentions that the primary responsibility lies with state governments, but the central government supports them through various initiatives. 
+
+The document discusses helplines like 181, 1098, and 112, as well as measures like Zero FIR and e-FIR. It also talks about the Department of Personnel & Training's role in guidelines for central employees. However, there's no specific mention of the District Mental Health Programme or the number of districts it's implemented in. 
+
+Since the document doesn't provide any numbers or specific districts where"
+AU2222,women,Q2,Tele-MANAS Cells कितने States/UTs में स्थापित किए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many states or UTs have Tele-MANAS Cells established. The document provided mentions that the Government of India has a comprehensive response linking various mental health initiatives, including tele-mental-health access. However, the document doesn't explicitly state the number of states or UTs where Tele-MANAS Cells are set up.
+
+Looking through the text, there's a mention of the Department of Personnel & Training (DoPT) issuing guidelines for central government employees, and the Central Government's steps like helplines (181, 1098, 112), Zero FIR, e-FIR, and institutional support. The Mental Health Care Act, 2017 is also referenced. But nowhere does it specify the number of Tele-MANAS Cells across states or UTs.
+
+Since the document doesn't provide this information, the answer isn't available here. The user might need"
+AU2222,women,Q3,One Stop Centres की कुल कितनी इकाइयाँ देशभर में संचालित हैं?,,english,sarvam,दिए गए द
+AU2222,women,Q4,SHe-Box portal का मुख्य उद्देश्य क्या है?,,english,sarvam,"<think>
+Okay, let's tackle this question about the SHe-Box portal. The user provided a document in Hindi, so I need to read through it carefully to find the relevant information.
+
+First, I'll scan the document for mentions of SHe-Box. The document talks about various initiatives by the Central Government to support women's safety, like helplines (181, 1098, 112), Zero FIR, e-FIR, and institutional support. But I don't see SHe-Box mentioned here. Wait, maybe I missed it. Let me check again.
+
+Looking at the sections again: The document mentions the Department of Personnel & Training (DoPT) handling guidelines for central government employees regarding harassment prevention, gender sensitization, and flexible work arrangements. It also talks about the Mental Health Care Act, 2017. Still no direct mention of SHe-Box.
+
+Hmm, maybe the SHe-Box portal isn't covered"
+AU2222,women,Q5,"OSH Code, 2020 के अनुसार सामान्य कार्य घंटे प्रतिदिन कितने हैं?",,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the OSH Code, 2020 and the standard working hours per day according to it. First, I need to recall what the OSH Code, 2020 refers to. OSH stands for Occupational Safety, Health and Working Conditions Code, which is part of the new labor codes in India.
+
+The document provided talks about mental health services, government initiatives, and some helplines. However, there's no mention of the OSH Code, 2020 or working hours in the given text. The user might have expected the answer to be in the document, but since it's not there, I need to rely on my existing knowledge.
+
+From what I remember, the OSH Code, 2020 consolidates various labor laws and sets the standard working hours. The standard working hours in India, as per labor laws, are typically 48 hours per week, which"
+AU2491,women,Q1,भागलपुर जिले में वर्तमान में कितने Anganwadi Centres कार्यरत हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many Anganwadi Centres are currently operational in Bhagalpur district. The provided document talks about various schemes under the Ministry of Women & Child Development, specifically mentioning Mission Saksham Anganwadi & Poshan 2.0. 
+
+First, I need to check if the document gives any numbers about Anganwadi Centres in Bhagalpur. The document mentions that the schemes are clubbed into three umbrella missions, and under Mission Saksham Anganwadi & Poshan 2.0, there's a sub-vertical for Anganwadi Infrastructure including upgraded Saksham Anganwadis. However, there's no specific number provided for Bhagalpur district.
+
+The document discusses the restructuring of schemes but doesn't include statistics on the number of operational Anganwadi Centres in any particular district, including Bhagalpur. Since the answer isn't present in the given text"
+AU2491,women,Q2,Bhagalpur में POSHAN 2.0 के तहत गर्भवती महिलाओं की संख्या कितनी है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the number of pregnant women under POSHAN 2.0 in Bhagalpur. First, I need to check the provided document to see if there's any specific data mentioned.
+
+Looking at the document, it talks about Mission Saksham Anganwadi & Poshan 2.0, which includes POSHAN Abhiyaan. The details mention that under POSHAN 2.0, there are three sub-verticals: Nutrition Support for Children, Pregnant Women & Lactating Mothers, and Adolescent Girls. However, the document doesn't provide any numerical data about the number of pregnant women in Bhagalpur or any other specific numbers. It just outlines the structure of the mission and the schemes included.
+
+Since the document doesn't include statistics or figures related to the number of pregnant women in Bhagalpur under POSHAN 2.0, the answer would be that the information isn"
+AU2491,women,Q3,0-6 वर्ष के बच्चों में कितने लाभार्थी Mission Poshan 2.0 के अंतर्गत हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking how many beneficiaries under the age of 0-6 years are covered under Mission Poshan 2.0. The document provided mentions that Mission Poshan 2.0 includes the Anganwadi Services Scheme, POSHAN Abhiyaan, and the Scheme for Adolescent Girls. It's organized into three sub-verticals: Nutrition Support for Children, Pregnant Women & Lactating Mothers, and Adolescent Girls; Early Childhood Care and Education; and Anganwadi Infrastructure.
+
+The key here is to look at the first sub-vertical under Mission Poshan 2.0, which is Nutrition Support for Children, Pregnant Women & Lactating Mothers, and Adolescent Girls. The question specifically asks about children aged 0-6 years. The document states that this sub-vertical includes children, but it doesn't provide exact numbers of beneficiaries. The other sub-verticals are about early"
+AU2491,women,Q4,PMMVY के तहत Bhagalpur में कितने beneficiaries को भुगतान किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the number of beneficiaries paid under PMMVY in Bhagalpur. First, I need to check the provided document to see if there's any mention of PMMVY.
+
+Looking through the document, it talks about three umbrella missions: Mission Saksham Anganwadi & Poshan 2.0, Mission Shakti, and Mission Vatsalya. Under Mission Shakti, there's the Sambal vertical which includes schemes like One Stop Centres, Women Helplines, Beti Bachao Beti Padhao, and Nari Adalat. The document also mentions POSHAN Abhiyaan under Mission Poshan 2.0. 
+
+Wait, PMMVY stands for Pradhan Mantri Matru Vandana Yojana. But in the document, under Mission Poshan 2.0, there's the Scheme for Adolescent Girls. The document doesn't mention PMMVY"
+AU2491,women,Q5,Mission Shakti के कौन-से दो verticals बताए गए हैं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the two verticals under Mission Shakti as mentioned in the provided document.
+
+First, I need to locate the section about Mission Shakti in the document. Scanning through the text, I see that under the Umbrella Missions, Mission Shakti is described. The document states: ""Mission Shakti: It comprises of two verticals ‘Sambal’ and ‘Samarthya’ for safety, security and empowerment of women, respectively.""
+
+So, the two verticals are Sambal and Samarthya. The question is in Hindi, so the answer should be in Hindi as well. I need to make sure the names are correctly transliterated. The document uses the Hindi script for the names, but in the answer, they should be written in Hindi script as per the original text. 
+
+Wait, the original text has them in English within quotes: ‘Sambal’ and ‘Samarthya’. Since"
+AU5696,women,Q1,Mission Shakti Portal कब लॉन्च किया गया था?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking when the Mission Shakti Portal was launched. I need to look through the provided document to find the relevant information.
+
+First, I'll scan the document for mentions of the Mission Shakti Portal. The document talks about the Central Government's measures, including Mission Shakti. There's a section that mentions the Ministry of Women and Child Development (MWCD) launching the portal. 
+
+Looking at the text, the key sentence is: ""In order to strengthen transparency and accessibility in service delivery with respect to reliefs and rehabilitation to women in distress, the Ministry of Women and Child Development (MWCD) launched Mission Shakti Portal (https://missionshakti.wcd.gov.in/) on 22.01.2025."" 
+
+So the date here is clearly stated as 22.01.2025. The question is in Hindi, so the answer should be in Hindi as well."
+AU5696,women,Q2,SHe-Box Portal कब लॉन्च किया गया था?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking when the SHe-Box Portal was launched. The document provided talks about the Mission Shakti Portal launched on 22.01.2025. Wait, the question is about SHe-Box, but the document mentions Mission Shakti Portal. Are they the same? Let me check again.
+
+The document says: ""The Ministry of Women and Child Development (MWCD) launched Mission Shakti Portal (https://missionshakti.wcd.gov.in/) on 22.01.2025."" There's no mention of SHe-Box here. Maybe SHe-Box is a different portal. But the user might be confusing the two. Alternatively, perhaps SHe-Box is part of Mission Shakti? Let me think. From my general knowledge, SHe-Box is a portal for reporting sexual harassment at the workplace. It was launched earlier, maybe around 201"
+AU5696,women,Q3,Karnataka में SHe-Box Portal पर कितनी शिकायतें दर्ज हुईं?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the number of complaints registered on the SHe-Box Portal in Karnataka. First, I need to check the provided document to see if there's any mention of Karnataka or specific numbers related to SHe-Box.
+
+Looking through the document, it talks about Mission Shakti, which includes components like Sambal and Samarthya. The One Stop Centres (OSC) and Women Helpline (WHL-181) are mentioned, along with the Mission Shakti Portal launched in January 2025. However, the document doesn't mention SHe-Box Portal at all. The SHe-Box is a different portal related to reporting sexual harassment at the workplace, which is under the Ministry of Women and Child Development. Since the provided text doesn't include any data about SHe-Box or Karnataka's statistics, the answer isn't present here. Therefore, the answer should state that the"
+AU5696,women,Q4,Cyber Crime reporting के लिए कौन-सा national portal उपलब्ध है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which national portal is available for reporting cyber crimes. The document provided talks about various initiatives by the Indian government for women and children's safety.
+
+First, I need to go through the document carefully. The main schemes mentioned are Mission Shakti, which includes Sambal and Samarthya. Under Sambal, there's the One Stop Centre (OSC) and the Women Helpline (WHL-181). The document also mentions the Mission Shakti Portal launched by the Ministry of Women and Child Development (MWCD) on 22.01.2025. The portal is for transparency and accessibility in service delivery for women in distress, including relief and rehabilitation. It's accessible via a mobile app as well.
+
+The question is about cyber crime reporting. The document doesn't explicitly mention a cyber crime portal. However, the Mission Shakti Portal is discussed in detail. Since the portal is related to women's"
+AU5696,women,Q5,महिलाओं की सुरक्षा के लिए कौन-सा dedicated fund स्थापित किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which dedicated fund has been established for the safety of women. The document provided talks about various measures by the Central Government under Mission Shakti.
+
+First, I need to go through the document carefully. The relevant section mentions Mission Shakti, which has two verticals: Sambal and Samarthya. Under Sambal, there's the One Stop Centre (OSC) and the Women Helpline (WHL-181). Then there's the Mission Shakti Portal launched in January 2025 for transparency in service delivery. 
+
+Wait, the question is about a dedicated fund. The document doesn't explicitly mention a specific fund name like ""Nirbhaya Fund"" or others. However, Mission Shakti itself is an umbrella scheme. The answer might be that the dedicated fund is part of Mission Shakti. But the user is asking for the name of the fund. Let me check again.
+
+The document"
+AU5734,women,Q1,महिलाओं की safety और empowerment के लिए कौन-सी umbrella scheme लागू की जा रही है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking which umbrella scheme is being implemented for the safety and empowerment of women. The document provided mentions the Ministry of Women and Child Development (MWCD) and their initiatives.
+
+First, I need to locate the relevant section in the document. The paragraph starting with ""The Ministry of Women and Child Development (MWCD) implements ‘Mission Shakti’..."" seems key. It states that Mission Shakti is a mission-mode scheme aimed at strengthening interventions for women's safety, security, and empowerment. The scheme has two components: 'Sambal' for safety and 'Samarthya' for empowerment. 
+
+The question specifically asks for the umbrella scheme, which in this context would be the overarching program. Since Mission Shakti is described as the main scheme with two verticals under it, that's the answer. The other details about the ITPA and state responsibilities are about law enforcement and trafficking, not the specific scheme for safety"
+AU5734,women,Q2,Mission Shakti के दो verticals कौन-कौन से हैं?,,english,sarvam,Mission Shak
+AU5734,women,Q3,Women Helpline किस short code number पर उपलब्ध है?,,english,sarvam,उत्तर: Women Helpline (WHL) **18
+AU5734,women,Q4,Mission Shakti Dashboard कब लॉन्च किया गया था?,,english,sarvam,
+AU5734,women,Q5,Nirbhaya Fund के तहत कौन-से दो प्रमुख projects का उल्लेख किया गया है?,,english,sarvam,"<think>
+Okay, let's tackle this question. The user is asking about the two major projects mentioned under the Nirbhaya Fund in the provided document.
+
+First, I need to go through the document carefully. The document talks about the Ministry of Women and Child Development and their initiatives. The key part here is the section about Mission Shakti. The document states that Mission Shakti has two verticals: 'Sambal' and 'Samarthya'. 
+
+Under 'Sambal', there's mention of One Stop Centres (OSCs) which provide various services to women in distress. Then there's the Women Helpline (WHL) under the same vertical, which offers 24/7 emergency response through the number 181. 
+
+The question specifically asks for the two major projects under the Nirbhaya Fund. However, the document doesn't explicitly mention the Nirbhaya Fund by name. But since Mission Shakti is a scheme by the Ministry"

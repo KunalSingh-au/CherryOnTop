@@ -1,0 +1,45 @@
+MOST IMPORTANT TASK BEFORE SATURDAY
+====================================
+You need to add two columns to data/qa_gold/gold_qa.csv:
+
+  gold_answer_en  — the correct English answer (copy from PDF)
+  keywords_en     — 2-3 keywords separated by | that MUST be in correct answer
+
+Without gold_answer_en, the evaluation cannot run.
+
+HOW TO DO IT
+────────────
+1. Open gold_qa.csv in Excel or Google Sheets
+2. Add two new columns: gold_answer_en, keywords_en
+3. For each question, open the corresponding PDF
+4. Find the answer and copy the key fact as gold_answer_en
+5. Write 2-3 keywords as keywords_en
+
+EXAMPLE
+───────
+question_hi: AYURGYAN योजना के अंतर्गत कुल कितने Research & Innovation प्रोजेक्ट स्वीकृत किए गए?
+gold_answer_en: 147 Research and Innovation projects have been approved
+keywords_en: 147|one hundred forty seven
+
+question_hi: NAM के तहत कितने बिस्तरों वाले एकीकृत आयुष अस्पताल स्थापित किए जा सकते हैं?
+gold_answer_en: Integrated AYUSH hospitals with 10, 30 or 50 beds
+keywords_en: 10|30|50
+
+GOOD ANSWERS (specific, verifiable)
+  Numbers:    "Nine national institutes"
+  Names:      "NIEPVD, Dehradun"
+  Yes/No:     "No, this is the responsibility of State governments"
+  Amounts:    "Rs. 4315.15 crore"
+
+BAD ANSWERS (too vague to evaluate)
+  "The government has taken various steps"
+  "As per the document"
+
+KEYWORDS TIPS
+  Use | to separate alternatives
+  Include the number AND the word: "nine|9|नौ"
+  For names: "NIEPVD|National Institute for Visual"
+  For yes/no: "yes|हाँ" or "no|नहीं|state government"
+
+Time estimate: ~2-3 hours for all 100 questions.
+Do this Friday evening so Saturday you just run the code.
