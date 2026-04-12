@@ -3,7 +3,7 @@
 import os
 
 # ── API Keys ───────────────────────────────────────────────────────────────────
-SARVAM_KEY  = os.getenv("SARVAM_KEY",  "sk_6856dzmt_dwQZanS1BRsIKr0dWXA3H0bE")
+SARVAM_KEY  = os.getenv("SARVAM_KEY",  "")
 OPENAI_KEY  = os.getenv("OPENAI_KEY",  "your_openai_key_here")
 
 # ── Model names ────────────────────────────────────────────────────────────────

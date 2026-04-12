@@ -1,0 +1,41 @@
+# HOW TO WRITE YOUR gold_qa.csv
+# =========================================================
+# This is the most important manual task you have.
+# Do this BEFORE the weekend. Takes about 2 hours for 100 questions.
+#
+# For each document (20 total), write 5 Hindi questions.
+# Make them FACTUAL — answerable with a specific fact from the document.
+# NOT opinion questions. NOT summary questions.
+#
+# COLUMNS:
+#   doc_id        → matches your PDF filename (minus _en.pdf)
+#   ministry      → education / disability / minority / women_child
+#   question_id   → Q1 through Q5
+#   question_hi   → your Hindi question (write naturally, not translated)
+#   gold_answer_en → the correct English answer (copy from document)
+#   answer_type   → entity / number / yesno / name
+#   keywords_en   → 2-3 keywords that MUST appear in a correct answer
+#
+# GOOD question types:
+#   Numbers:    "कितने राष्ट्रीय संस्थान हैं?" → "nine" or "9"
+#   Names:      "देहरादून में कौन सा संस्थान है?" → "NIEPVD"
+#   Amounts:    "कितनी राशि स्वीकृत की गई?" → "4315.15 crore"
+#   Entities:   "PM VIKAS योजना का उद्देश्य क्या है?" → "skill training"
+#   Yes/No:     "क्या EWS को 10% आरक्षण मिलता है?" → "yes"
+#
+# BAD question types (avoid):
+#   "इस दस्तावेज़ का सारांश क्या है?" ← too vague
+#   "आप क्या सोचते हैं?" ← opinion
+#   "सरकार ने क्या किया?" ← too broad
+#
+# EXAMPLE (disability doc):
+# doc_id,ministry,question_id,question_hi,gold_answer_en,answer_type,keywords_en
+# disability_1,disability,Q1,DEPwD के तहत कुल कितने राष्ट्रीय संस्थान हैं?,Nine National Institutes,number,nine|9|नौ
+# disability_1,disability,Q2,NIEPVD कहाँ स्थित है?,Dehradun,entity,Dehradun|देहरादून
+# disability_1,disability,Q3,कितने लाभार्थियों को पुनर्वास सेवाएं मिलीं?,"12,65,764 beneficiaries",number,12,65,764
+# disability_1,disability,Q4,NILD किस शहर में है?,Kolkata,entity,Kolkata|कोलकाता
+# disability_1,disability,Q5,CRC की संख्या कितनी बढ़ाई गई?,From 8 to 30,number,30|तीस
+#
+# KEYWORDS NOTE:
+# Use | to separate alternatives: "nine|9|नौ" means any of these counts as correct
+# The evaluation script checks if ANY keyword appears in the answer.
