@@ -15,7 +15,7 @@ from utils.llm import sarvam_en_to_hi, translate_long_text
 
 
 def en_to_hi(text: str) -> str:
-    return translate_long_text(text, sarvam_en_to_hi, max_chunk=900)
+    return translate_long_text(text, sarvam_en_to_hi)
 
 
 def main():

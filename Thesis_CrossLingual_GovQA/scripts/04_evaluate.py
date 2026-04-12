@@ -1,21 +1,14 @@
 #!/usr/bin/env python3
 """
-Evaluate all rows in outputs/runs/all_runs.csv:
+Score rows in a runs CSV (default outputs/runs/all_runs.csv).
 
-  - Back-translate Hindi answers → English (Sarvam)
-  - Keyword hit rate (curated phrases vs back-English)
-  - ROUGE-L (back-English vs gold_answer_en)
-  - BERTScore F1 multilingual (same pair)
-  - LLM-as-judge: grounded / minor / major (Gemini)
+Back-translate (Sarvam), keyword hit rate, ROUGE-L, multilingual BERTScore,
+optional Gemini hallucination judge, doc_fidelity_chrf.
 
-Also attaches doc_fidelity_chrf (Sarvam-translated doc vs official Hindi doc) per doc_id when available.
-
-Output: outputs/evaluation/all_results.csv
+See RUNBOOK.txt for usage.
 """
 
 import argparse
-import csv
-import json
 import os
 import sys
 
@@ -29,6 +22,7 @@ from config import (
     GEMINI_MODEL,
     BERTSCORE_MODEL,
 )
+from utils.jsonl import load_docs_jsonl
 from utils.llm import sarvam_hi_to_en
 from utils.metrics import (
     keyword_hit_rate,
@@ -39,41 +33,48 @@ from utils.metrics import (
     hallucination_numeric,
 )
 
-
-def load_doc_map(path: str, field: str) -> dict:
-    if not os.path.exists(path):
-        return {}
-    m = {}
-    with open(path, encoding="utf-8") as f:
-        for line in f:
-            r = json.loads(line)
-            m[r["doc_id"]] = r.get(field, "") or ""
-    return m
+import pandas as pd
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(
+        "--runs-csv",
+        default=RUNS_CSV,
+        help="Input generations CSV (from 03_run_qa.py).",
+    )
+    ap.add_argument(
+        "--out",
+        default=EVAL_CSV,
+        help="Output scored CSV.",
+    )
+    ap.add_argument(
         "--skip-judge",
         action="store_true",
-        help="Skip Gemini hallucination judge (faster; use for dry runs).",
+        help="Skip Gemini hallucination judge (faster for smoke tests).",
     )
     args = ap.parse_args()
 
-    if not os.path.exists(RUNS_CSV):
-        print(f"Missing {RUNS_CSV}. Run scripts/03_run_qa.py first.")
+    if not os.path.exists(args.runs_csv):
+        print(f"Missing {args.runs_csv}. Run scripts/03_run_qa.py first.")
         sys.exit(1)
 
-    with open(RUNS_CSV, encoding="utf-8-sig") as f:
-        rows = list(csv.DictReader(f))
+    df = pd.read_csv(args.runs_csv, encoding="utf-8-sig")
+    if df.empty:
+        print("Runs CSV is empty.")
+        sys.exit(1)
 
-    sarv_docs = load_doc_map(TRANSLATED_SARVAM, "answer_hi")
-    hi_docs = load_doc_map(EXTRACTED_HI, "answer_hi")
+    rows = df.to_dict("records")
+    sarv_docs = load_docs_jsonl(TRANSLATED_SARVAM, "answer_hi")
+    hi_docs = load_docs_jsonl(EXTRACTED_HI, "answer_hi")
 
     print(f"Back-translating {len(rows)} answers...")
     backs = []
     for i, row in enumerate(rows, 1):
         ah = row.get("answer_hi", "")
+        if isinstance(ah, float):
+            ah = ""
+        ah = str(ah) if ah is not None else ""
         if ah and "ERROR" not in ah:
             backs.append(sarvam_hi_to_en(ah))
         else:
@@ -81,24 +82,24 @@ def main():
         print(f"  {i}/{len(rows)}", end="\r")
     print()
 
-    golds = [r.get("gold_answer_en", "") for r in rows]
+    golds = [str(r.get("gold_answer_en", "") or "") for r in rows]
     print(f"BERTScore batch ({BERTSCORE_MODEL})...")
     berts = bertscore_multilingual_batch(backs, golds, BERTSCORE_MODEL)
 
     out_rows = []
     for i, row in enumerate(rows):
-        gold = row.get("gold_answer_en", "")
+        gold = str(row.get("gold_answer_en", "") or "")
         back = backs[i]
-        kw = row.get("keywords_en", "")
-        did = row.get("doc_id", "")
-        df = doc_fidelity_chrf(sarv_docs.get(did, ""), hi_docs.get(did, ""))
+        kw = str(row.get("keywords_en", "") or "")
+        did = str(row.get("doc_id", "") or "")
+        df_val = doc_fidelity_chrf(sarv_docs.get(did, ""), hi_docs.get(did, ""))
 
         metrics = {
             "back_en": back,
             "keyword_hit_rate": keyword_hit_rate(kw, back),
             "rougeL_f1": rouge_l_f1(gold, back),
             "bertscore_f1": berts[i],
-            "doc_fidelity_chrf": df,
+            "doc_fidelity_chrf": df_val,
         }
 
         if args.skip_judge:
@@ -109,7 +110,7 @@ def main():
             judge = llm_judge_hallucination(
                 gold,
                 back,
-                row.get("condition", ""),
+                str(row.get("condition", "") or ""),
                 GOOGLE_API_KEY,
                 GEMINI_MODEL,
             )
@@ -123,14 +124,11 @@ def main():
         print(f"  judge {i+1}/{len(rows)}", end="\r")
     print()
 
-    os.makedirs(os.path.dirname(EVAL_CSV), exist_ok=True)
-    fieldnames = list(out_rows[0].keys())
-    with open(EVAL_CSV, "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
-        w.writeheader()
-        w.writerows(out_rows)
+    out_df = pd.DataFrame(out_rows)
+    os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    out_df.to_csv(args.out, index=False, encoding="utf-8-sig")
 
-    print(f"Wrote {len(out_rows)} rows → {EVAL_CSV}")
+    print(f"Wrote {len(out_rows)} rows → {args.out}")
     print("Next: python scripts/05_analyze.py")
 
 

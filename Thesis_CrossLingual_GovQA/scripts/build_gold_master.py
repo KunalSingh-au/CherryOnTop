@@ -82,7 +82,7 @@ def main():
             skipped_no_official += 1
             continue
         doc_ok = str(r.get("doc_available", "True")).lower() == "true"
-        c4_ok = bool(o) and doc_ok and "MISSING" not in (r.get("gold_answer_en") or "")
+        c4_ok = doc_ok and "MISSING" not in (r.get("gold_answer_en") or "")
         rows.append(
             {
                 "doc_id": r["doc_id"],

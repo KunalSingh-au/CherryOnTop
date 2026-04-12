@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
 """
-Run 100 questions × 4 conditions × 4 models = 1600 generations (with full gold + PDF coverage).
+Run N questions × 4 conditions × 4 models (default N=100, full PDF coverage → 1600 calls).
 
-All conditions use the same official Hindi question text (question_hi_official).
+All conditions use question_hi_official. Resume: skips keys already in the runs CSV.
 
-C1: official Hindi Q + English document
-C2: official Hindi Q + Sarvam machine-translated Hindi document
-C3: official Hindi Q only
-C4: official Hindi Q + official Hindi document (human-translated PDF text)
-
-Resume: existing rows in outputs/runs/all_runs.csv are skipped.
+See RUNBOOK.txt for setup and sample commands.
 """
 
 import argparse
 import csv
-import json
 import os
 import sys
 
@@ -28,6 +22,7 @@ from config import (
     CONDITIONS,
     MODELS,
 )
+from utils.jsonl import load_docs_jsonl
 from utils.llm import run_qa
 
 COLS = [
@@ -43,16 +38,7 @@ COLS = [
     "answer_hi",
 ]
 
-
-def load_jsonl_map(path: str, key: str, field: str) -> dict:
-    if not os.path.exists(path):
-        return {}
-    out = {}
-    with open(path, encoding="utf-8") as f:
-        for line in f:
-            r = json.loads(line)
-            out[r[key]] = r.get(field, "")
-    return out
+CONDS_NEED_CONTEXT = frozenset({"C1", "C2", "C4"})
 
 
 def load_done_keys(path: str) -> set[tuple]:
@@ -67,24 +53,16 @@ def official_question(qa: dict) -> str:
     return (qa.get("question_hi_official") or "").strip()
 
 
-def context_for(
-    condition: str,
-    qa: dict,
-    q_hi: str,
-    eng_by_doc: dict,
-    sarvam_by_doc: dict,
-    hi_by_doc: dict,
-) -> str:
-    """Returns context text for this condition (question is always q_hi from caller)."""
+def context_for(condition: str, qa: dict, eng: dict, sarv: dict, hi: dict) -> str:
     did = qa["doc_id"]
     if condition == "C1":
-        return eng_by_doc.get(did, "")
+        return eng.get(did, "")
     if condition == "C2":
-        return sarvam_by_doc.get(did, "")
+        return sarv.get(did, "")
     if condition == "C3":
         return ""
     if condition == "C4":
-        return hi_by_doc.get(did, "")
+        return hi.get(did, "")
     return ""
 
 
@@ -92,8 +70,26 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only-condition", choices=list(CONDITIONS), default=None)
     ap.add_argument("--only-model", choices=list(MODELS), default=None)
-    ap.add_argument("--limit", type=int, default=0, help="Max new runs (0 = no limit)")
+    ap.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="Stop after this many new API rows (across all Q×condition×model). 0 = no cap.",
+    )
+    ap.add_argument(
+        "--max-questions",
+        type=int,
+        default=0,
+        help="Only first K rows from gold CSV (after load). 0 = all rows.",
+    )
+    ap.add_argument(
+        "--runs-csv",
+        default=None,
+        help=f"Output CSV path (default: {RUNS_CSV}). Use for sample runs.",
+    )
     args = ap.parse_args()
+
+    runs_path = args.runs_csv or RUNS_CSV
 
     if not os.path.exists(QA_GOLD_PATH):
         print(f"Missing {QA_GOLD_PATH}. Run: python scripts/build_gold_master.py")
@@ -101,22 +97,24 @@ def main():
 
     with open(QA_GOLD_PATH, encoding="utf-8") as f:
         qa_rows = list(csv.DictReader(f))
+    if args.max_questions and args.max_questions > 0:
+        qa_rows = qa_rows[: args.max_questions]
 
-    eng = load_jsonl_map(EXTRACTED_EN, "doc_id", "answer_en")
-    sarv = load_jsonl_map(TRANSLATED_SARVAM, "doc_id", "answer_hi")
-    hi = load_jsonl_map(EXTRACTED_HI, "doc_id", "answer_hi")
+    eng = load_docs_jsonl(EXTRACTED_EN, "answer_en")
+    sarv = load_docs_jsonl(TRANSLATED_SARVAM, "answer_hi")
+    hi = load_docs_jsonl(EXTRACTED_HI, "answer_hi")
 
-    done = load_done_keys(RUNS_CSV)
-    os.makedirs(os.path.dirname(RUNS_CSV), exist_ok=True)
+    done = load_done_keys(runs_path)
+    os.makedirs(os.path.dirname(runs_path), exist_ok=True)
     new_count = 0
-    file_exists = os.path.exists(RUNS_CSV) and os.path.getsize(RUNS_CSV) > 0
+    file_exists = os.path.exists(runs_path) and os.path.getsize(runs_path) > 0
     write_header = not file_exists
     mode = "a" if file_exists else "w"
 
     conditions = [args.only_condition] if args.only_condition else list(CONDITIONS)
     models = [args.only_model] if args.only_model else list(MODELS)
 
-    with open(RUNS_CSV, mode, newline="", encoding="utf-8-sig") as fout:
+    with open(runs_path, mode, newline="", encoding="utf-8-sig") as fout:
         w = csv.DictWriter(fout, fieldnames=COLS)
         if write_header:
             w.writeheader()
@@ -129,14 +127,8 @@ def main():
             for cond in conditions:
                 if cond == "C4" and str(qa.get("c4_available", "false")).lower() != "true":
                     continue
-                ctx = context_for(cond, qa, q_hi, eng, sarv, hi)
-                if cond == "C1" and not (ctx or "").strip():
-                    print(f"SKIP {qa['doc_id']} {qa['question_id']} {cond} — empty context")
-                    continue
-                if cond == "C2" and not (ctx or "").strip():
-                    print(f"SKIP {qa['doc_id']} {qa['question_id']} {cond} — empty context")
-                    continue
-                if cond == "C4" and not (ctx or "").strip():
+                ctx = context_for(cond, qa, eng, sarv, hi)
+                if cond in CONDS_NEED_CONTEXT and not (ctx or "").strip():
                     print(f"SKIP {qa['doc_id']} {qa['question_id']} {cond} — empty context")
                     continue
                 for model in models:
@@ -170,7 +162,7 @@ def main():
                         print(f"Stopped after --limit {args.limit}")
                         return
 
-    print(f"\nDone. New rows this session: {new_count}. Total file: {RUNS_CSV}")
+    print(f"\nDone. New rows this session: {new_count}. Output: {runs_path}")
 
 
 if __name__ == "__main__":

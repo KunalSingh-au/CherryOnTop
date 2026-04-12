@@ -2,9 +2,13 @@
 """
 Extract English and official Hindi answer text from PDFs.
 
-English:  data/raw_pdfs/<MINISTRY_MAP key>/*.pdf  (AUxxxx_*.pdf)
-Hindi:    data/raw_pdfs_hi/<same subfolders>/*.pdf
-Output:   data/extracted/english_docs.jsonl, hindi_official_docs.jsonl
+Default layout (see config.PDF_DIR_EN / PDF_DIR_HI):
+  <PDF_DIR_EN>/<1_Ayush|2_Education|...>/*.pdf   — English
+  <PDF_DIR_HI>/<same ministry folders>/*.pdf    — Hindi
+
+Override paths: PDF_DIR_EN and PDF_DIR_HI env vars (project root = cwd).
+
+Output: data/extracted/english_docs.jsonl, hindi_official_docs.jsonl
 """
 
 import json
@@ -63,6 +67,9 @@ def extract_tree(base_dir: str, ministry_map: dict, lang: str) -> list[dict]:
 def main():
     os.makedirs(os.path.dirname(EXTRACTED_EN), exist_ok=True)
 
+    print(f"English PDF root: {PDF_DIR_EN}")
+    print(f"Hindi PDF root:   {PDF_DIR_HI}\n")
+
     print("=== English PDFs ===")
     en_recs = extract_tree(PDF_DIR_EN, MINISTRY_MAP, "en")
     with open(EXTRACTED_EN, "w", encoding="utf-8") as f:
@@ -77,7 +84,17 @@ def main():
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"\n→ {EXTRACTED_HI} ({len(hi_recs)} docs)")
 
-    print("\nNext: python scripts/02_translate_docs.py")
+    if not en_recs and not hi_recs:
+        print(
+            "\nNo PDFs found. Expected ministry folders under each root, e.g.\n"
+            f"  {PDF_DIR_EN}/1_Ayush/*.pdf\n"
+            f"  {PDF_DIR_HI}/1_Ayush/*.pdf\n"
+            "Or set PDF_DIR_EN / PDF_DIR_HI (e.g. flat Draft_4 layout:\n"
+            "  export PDF_DIR_EN=data/raw_pdfs PDF_DIR_HI=data/raw_pdfs_hi\n"
+            "  with data/raw_pdfs/1_Ayush/ ... )."
+        )
+    else:
+        print("\nNext: python scripts/02_translate_docs.py")
 
 
 if __name__ == "__main__":
