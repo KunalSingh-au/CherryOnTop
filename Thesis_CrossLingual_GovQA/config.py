@@ -19,17 +19,12 @@ SLEEP_SARVAM = float(os.getenv("SLEEP_SARVAM", "1.0"))
 SLEEP_GEMINI = float(os.getenv("SLEEP_GEMINI", "0.4"))
 SLEEP_MISTRAL = float(os.getenv("SLEEP_MISTRAL", "0.3"))
 SLEEP_GROQ = float(os.getenv("SLEEP_GROQ", "0.3"))
-# Retries when provider returns 429 / quota (Gemini free tier, Groq TPD, etc.)
-GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "8"))
-GROQ_MAX_RETRIES = int(os.getenv("GROQ_MAX_RETRIES", "6"))
 # Sarvam translate API input limit (~1000); chunk long docs for 02_translate_docs.
 SARVAM_TRANSLATE_MAX_INPUT = int(os.getenv("SARVAM_TRANSLATE_MAX_INPUT", "900"))
 MAX_CONTEXT_CHARS = int(os.getenv("MAX_CONTEXT_CHARS", "3500"))
 MAX_ANSWER_TOKENS = int(os.getenv("MAX_ANSWER_TOKENS", "512"))
 
-# ── PDF roots (each contains MINISTRY_MAP subfolders, e.g. 1_Ayush/) ─────────
-# Default: data/raw_pdfs/english/1_Ayush/*.pdf and data/raw_pdfs/hindi/1_Ayush/*.pdf
-# Legacy Draft_4-style flat tree: export PDF_DIR_EN=data/raw_pdfs PDF_DIR_HI=data/raw_pdfs_hi
+# ── PDF layout (same as Draft_4) ─────────────────────────────────────────────
 MINISTRY_MAP = {
     "1_Ayush": "ayush",
     "2_Education": "education",
@@ -37,8 +32,8 @@ MINISTRY_MAP = {
     "4_Women": "women",
 }
 
-PDF_DIR_EN = os.getenv("PDF_DIR_EN", "data/raw_pdfs/english")
-PDF_DIR_HI = os.getenv("PDF_DIR_HI", "data/raw_pdfs/hindi")
+PDF_DIR_EN = "/Users/kunalsingh/Documents/Thesis/Thesis_CrossLingual_GovQA/data/raw_pdfs/english"
+PDF_DIR_HI = "/Users/kunalsingh/Documents/Thesis/Thesis_CrossLingual_GovQA/data/raw_pdfs/hindi"
 
 EXTRACTED_EN = "data/extracted/english_docs.jsonl"
 EXTRACTED_HI = "data/extracted/hindi_official_docs.jsonl"

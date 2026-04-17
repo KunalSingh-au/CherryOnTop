@@ -1,5 +1,0 @@
-model,keyword_hit_rate,rougeL_f1,bertscore_f1,hallucination_score
-gemini,0.0,0.0,0.0,
-llama,0.04282281690140845,0.030373521126760564,0.0,
-mistral,0.0,0.0,0.0,
-sarvam,0.3163166197183099,0.2063619718309859,0.0,
