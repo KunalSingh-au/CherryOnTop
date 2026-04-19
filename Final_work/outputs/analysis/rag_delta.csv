@@ -1,0 +1,5 @@
+Model,Note,KW-Hit,ROUGE-L,BERTScore,Judge
+llama,C6−C1 (+ve = RAG helped),0.052,0.037,0.197,
+mixtral,C6−C1 (+ve = RAG helped),0.094,0.037,0.204,
+qwen,C6−C1 (+ve = RAG helped),0.073,0.037,0.192,
+sarvam,C6−C1 (+ve = RAG helped),0.118,0.036,0.251,

@@ -1,0 +1,5 @@
+condition,keyword_hit_rate,rougeL_f1,bertscore_f1,hallucination_score,Description,Δ vs C1 (KW-Hit),Δ vs C1 (ROUGE-L),Δ vs C1 (BERTScore),Δ vs C1 (Judge)
+C1,0.002,0.007,0.656,,English doc (original),0.0,0.0,0.0,
+C2,0.004,0.007,0.648,,Sarvam machine-translated Hindi,0.002,0.0,-0.008,
+C4,0.002,0.007,0.631,,Official Hindi PDF,0.0,0.0,-0.025,
+C5,0.004,0.007,0.615,,IndicTrans2 Hindi,0.002,0.0,-0.041,
