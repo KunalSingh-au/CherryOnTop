@@ -1,0 +1,17 @@
+model,doc_type,full_cond,rag_cond,delta_keyword_hit_rate,delta_rougeL_f1,delta_bertscore_f1
+llama,English,C1,C6,-0.01,0.017,0.001
+mixtral,English,C1,C6,-0.006,0.0,0.001
+qwen,English,C1,C6,0.01,0.014,0.0
+sarvam,English,C1,C6,-0.007,-0.011,-0.009
+llama,Sarvam MT,C2,C7,-0.018,-0.016,-0.002
+mixtral,Sarvam MT,C2,C7,0.023,0.002,0.001
+qwen,Sarvam MT,C2,C7,-0.015,-0.015,-0.002
+sarvam,Sarvam MT,C2,C7,-0.024,-0.017,-0.002
+llama,Official Hindi,C4,C8,0.008,0.01,0.001
+mixtral,Official Hindi,C4,C8,0.008,-0.009,0.002
+qwen,Official Hindi,C4,C8,0.013,0.008,0.001
+sarvam,Official Hindi,C4,C8,-0.011,-0.005,0.008
+llama,IndicTrans2,C5,C9,-0.002,0.0,-0.0
+mixtral,IndicTrans2,C5,C9,-0.011,-0.007,0.001
+qwen,IndicTrans2,C5,C9,0.0,0.0,-0.0
+sarvam,IndicTrans2,C5,C9,-0.003,-0.001,0.002

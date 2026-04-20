@@ -1,0 +1,10 @@
+Condition,KW-Hit,ROUGE-L,BERTScore,Description
+C1,0.237,0.209,0.875,Full Doc — English
+C2,0.239,0.22,0.875,Full Doc — Sarvam MT
+C6,0.234,0.214,0.874,RAG — English Chunks
+C7,0.231,0.208,0.874,RAG — Sarvam MT Chunks
+C8,0.141,0.134,0.867,RAG — Official Hindi Chunks
+C4,0.136,0.133,0.864,Full Doc — Official Hindi
+C9,0.069,0.09,0.86,RAG — IndicTrans2 Chunks
+C5,0.073,0.092,0.859,Full Doc — IndicTrans2
+C3,0.107,0.113,0.859,No Context (Closed-Book)

@@ -1,0 +1,17 @@
+model,keyword_hit_rate,rougeL_f1,bertscore_f1,Context_Type
+llama,-0.052,0.019,0.004,English
+mixtral,0.01,0.0,-0.002,English
+qwen,-0.001,0.013,0.004,English
+sarvam,-0.051,-0.037,-0.09,English
+llama,-0.004,-0.024,-0.002,Sarvam MT
+mixtral,-0.023,-0.0,-0.007,Sarvam MT
+qwen,-0.041,-0.005,-0.001,Sarvam MT
+sarvam,-0.042,-0.037,-0.089,Sarvam MT
+llama,0.016,0.013,-0.002,Official
+mixtral,-0.019,-0.013,-0.004,Official
+qwen,-0.027,0.003,-0.001,Official
+sarvam,-0.005,-0.001,-0.026,Official
+llama,0.001,0.007,0.003,IndicTrans2
+mixtral,0.019,0.002,0.001,IndicTrans2
+qwen,0.017,0.001,0.001,IndicTrans2
+sarvam,-0.014,-0.012,-0.062,IndicTrans2

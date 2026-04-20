@@ -1,5 +1,0 @@
-Model,KW-Hit,ROUGE-L,BERTScore,Judge,n
-llama,0.003,0.007,0.653,,100
-mixtral,0.011,0.008,0.627,,100
-qwen,0.001,0.007,0.665,,100
-sarvam,0.001,0.007,0.596,,100

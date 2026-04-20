@@ -1,0 +1,7 @@
+,keyword_hit_rate,keyword_hit_rate,rougeL_f1,rougeL_f1,bertscore_f1,bertscore_f1
+condition,C2,C5,C2,C5,C2,C5
+model,,,,,,
+llama,0.293,0.054,0.282,0.089,0.899,0.874
+mixtral,0.348,0.218,0.27,0.205,0.893,0.881
+qwen,0.258,0.017,0.263,0.056,0.897,0.871
+sarvam,0.06,0.005,0.065,0.019,0.809,0.811

@@ -1,9 +1,0 @@
-model,condition,keyword_hit_rate,rougeL_f1,bertscore_f1,hallucination_score
-llama,C1,0.001,0.007,0.671,
-llama,C6,0.053,0.044,0.868,
-mixtral,C1,0.001,0.007,0.659,
-mixtral,C6,0.095,0.044,0.863,
-qwen,C1,0.001,0.007,0.68,
-qwen,C6,0.074,0.044,0.872,
-sarvam,C1,0.003,0.008,0.612,
-sarvam,C6,0.121,0.044,0.863,

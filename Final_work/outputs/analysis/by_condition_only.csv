@@ -1,7 +1,0 @@
-Condition,Description,KW-Hit,ROUGE-L,BERTScore,Judge
-C1,English doc (original),0.002,0.007,0.656,
-C2,Sarvam machine-translated Hindi,0.004,0.007,0.648,
-C3,No document (hallucination floor),0.004,0.007,0.635,
-C4,Official Hindi PDF,0.002,0.007,0.631,
-C5,IndicTrans2 Hindi,0.004,0.007,0.615,
-C6,RAG top-3 English chunks,0.086,0.044,0.866,

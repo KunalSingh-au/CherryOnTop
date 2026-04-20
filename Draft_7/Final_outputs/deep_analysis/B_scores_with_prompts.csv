@@ -1,0 +1,37 @@
+Model,Condition,KW-Hit,ROUGE-L,BERTScore,Condition_Desc
+llama,C1,0.309,0.27,0.899,Full Doc — English
+llama,C2,0.293,0.282,0.899,Full Doc — Sarvam MT
+llama,C3,0.173,0.207,0.888,No Context (Closed-Book)
+llama,C4,0.158,0.164,0.883,Full Doc — Official Hindi
+llama,C5,0.054,0.089,0.874,Full Doc — IndicTrans2
+llama,C6,0.3,0.287,0.9,RAG — English Chunks
+llama,C7,0.275,0.266,0.897,RAG — Sarvam MT Chunks
+llama,C8,0.165,0.174,0.885,RAG — Official Hindi Chunks
+llama,C9,0.052,0.089,0.874,RAG — IndicTrans2 Chunks
+mixtral,C1,0.329,0.244,0.887,Full Doc — English
+mixtral,C2,0.348,0.27,0.893,Full Doc — Sarvam MT
+mixtral,C3,0.204,0.157,0.87,No Context (Closed-Book)
+mixtral,C4,0.233,0.198,0.879,Full Doc — Official Hindi
+mixtral,C5,0.218,0.205,0.881,Full Doc — IndicTrans2
+mixtral,C6,0.323,0.245,0.887,RAG — English Chunks
+mixtral,C7,0.371,0.272,0.894,RAG — Sarvam MT Chunks
+mixtral,C8,0.241,0.19,0.881,RAG — Official Hindi Chunks
+mixtral,C9,0.207,0.198,0.882,RAG — IndicTrans2 Chunks
+qwen,C1,0.255,0.242,0.896,Full Doc — English
+qwen,C2,0.258,0.263,0.897,Full Doc — Sarvam MT
+qwen,C3,0.052,0.077,0.874,No Context (Closed-Book)
+qwen,C4,0.139,0.142,0.882,Full Doc — Official Hindi
+qwen,C5,0.017,0.056,0.871,Full Doc — IndicTrans2
+qwen,C6,0.265,0.256,0.896,RAG — English Chunks
+qwen,C7,0.243,0.248,0.895,RAG — Sarvam MT Chunks
+qwen,C8,0.151,0.15,0.883,RAG — Official Hindi Chunks
+qwen,C9,0.017,0.056,0.871,RAG — IndicTrans2 Chunks
+sarvam,C1,0.056,0.079,0.82,Full Doc — English
+sarvam,C2,0.06,0.065,0.809,Full Doc — Sarvam MT
+sarvam,C3,0.0,0.01,0.804,No Context (Closed-Book)
+sarvam,C4,0.015,0.03,0.812,Full Doc — Official Hindi
+sarvam,C5,0.005,0.019,0.811,Full Doc — IndicTrans2
+sarvam,C6,0.049,0.068,0.811,RAG — English Chunks
+sarvam,C7,0.036,0.047,0.807,RAG — Sarvam MT Chunks
+sarvam,C8,0.005,0.024,0.82,RAG — Official Hindi Chunks
+sarvam,C9,0.002,0.018,0.813,RAG — IndicTrans2 Chunks

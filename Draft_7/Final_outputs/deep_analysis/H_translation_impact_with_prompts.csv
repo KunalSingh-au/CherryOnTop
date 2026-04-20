@@ -1,0 +1,5 @@
+condition,keyword_hit_rate,rougeL_f1,bertscore_f1,BERTScore_delta_vs_C1,KWHit_delta_vs_C1
+C1,0.237,0.209,0.875,0.0,0.0
+C2,0.239,0.22,0.875,0.0,0.002
+C4,0.136,0.133,0.864,-0.011,-0.101
+C5,0.073,0.092,0.859,-0.016,-0.164

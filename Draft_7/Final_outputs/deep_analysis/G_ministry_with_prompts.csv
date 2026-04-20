@@ -1,0 +1,6 @@
+ministry,keyword_hit_rate,keyword_hit_rate,keyword_hit_rate,keyword_hit_rate,rougeL_f1,rougeL_f1,rougeL_f1,rougeL_f1,bertscore_f1,bertscore_f1,bertscore_f1,bertscore_f1
+,C1,C2,C3,C6,C1,C2,C3,C6,C1,C2,C3,C6
+ayush,0.105,0.098,0.051,0.109,0.082,0.093,0.077,0.097,0.848,0.849,0.849,0.85
+education,0.251,0.249,0.07,0.218,0.252,0.264,0.097,0.246,0.881,0.884,0.858,0.881
+labour,0.361,0.373,0.131,0.327,0.303,0.306,0.133,0.272,0.891,0.885,0.863,0.881
+women,0.233,0.237,0.176,0.284,0.199,0.216,0.143,0.241,0.882,0.881,0.866,0.882
