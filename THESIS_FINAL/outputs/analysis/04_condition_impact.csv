@@ -1,0 +1,10 @@
+condition,description,bertscore_f1,rougeL_f1,keyword_hit_rate
+C2,Full Doc (Sarvam MT),0.893,0.306,0.418
+C6,RAG (English Chunks),0.893,0.295,0.418
+C1,Full Doc (English),0.891,0.289,0.418
+C7,RAG (Sarvam MT Chunks),0.889,0.281,0.381
+C8,RAG (Official Hindi Chunks),0.886,0.256,0.338
+C4,Full Doc (Official Hindi),0.884,0.249,0.336
+C5,Full Doc (IndicTrans2),0.871,0.184,0.249
+C3,No Context (Closed-Book),0.87,0.172,0.235
+C9,RAG (IndicTrans2 Chunks),0.869,0.177,0.244

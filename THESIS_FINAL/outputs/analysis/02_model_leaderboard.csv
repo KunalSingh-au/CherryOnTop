@@ -1,0 +1,5 @@
+model,bertscore_f1,rougeL_f1,keyword_hit_rate,combined_score
+llama,0.898,0.31,0.336,0.515
+sarvam,0.882,0.251,0.371,0.501
+qwen,0.883,0.244,0.37,0.499
+mixtral,0.872,0.198,0.319,0.463

@@ -1,0 +1,17 @@
+model,context,rag_cond,full_cond,delta_bert,delta_rougeL,delta_kw
+llama,English,C6,C1,0.001,0.006,-0.023
+mixtral,English,C6,C1,0.003,0.002,-0.001
+qwen,English,C6,C1,0.0,0.011,0.007
+sarvam,English,C6,C1,0.004,0.005,0.008
+llama,Sarvam-MT,C7,C2,-0.003,-0.021,-0.034
+mixtral,Sarvam-MT,C7,C2,-0.005,-0.028,-0.035
+qwen,Sarvam-MT,C7,C2,-0.005,-0.034,-0.05
+sarvam,Sarvam-MT,C7,C2,-0.012,-0.07,-0.079
+llama,Official Hindi,C8,C4,0.005,0.011,-0.011
+mixtral,Official Hindi,C8,C4,0.003,0.011,-0.01
+qwen,Official Hindi,C8,C4,0.001,0.003,-0.018
+sarvam,Official Hindi,C8,C4,0.0,0.003,0.018
+llama,IndicTrans2,C9,C5,-0.002,-0.013,-0.008
+mixtral,IndicTrans2,C9,C5,-0.002,0.01,0.0
+qwen,IndicTrans2,C9,C5,0.0,-0.006,0.0
+sarvam,IndicTrans2,C9,C5,-0.023,-0.042,-0.189

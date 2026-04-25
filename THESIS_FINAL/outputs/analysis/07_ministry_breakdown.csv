@@ -1,0 +1,5 @@
+ministry,bertscore_f1,rougeL_f1,keyword_hit_rate
+labour,0.903,0.323,0.444
+women,0.891,0.285,0.419
+education,0.89,0.272,0.308
+ayush,0.849,0.115,0.208

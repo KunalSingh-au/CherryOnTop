@@ -1,0 +1,5 @@
+model,bertscore_f1_NP,rougeL_f1_NP,keyword_hit_rate_NP,bertscore_f1_P,rougeL_f1_P,keyword_hit_rate_P,rougeL_gain,bert_gain
+llama,0.894,0.297,0.335,0.903,0.33,0.338,0.033,0.009
+mixtral,0.862,0.159,0.294,0.888,0.266,0.364,0.107,0.026
+qwen,0.871,0.186,0.375,0.907,0.357,0.36,0.171,0.036
+sarvam,0.868,0.196,0.384,0.904,0.335,0.352,0.139,0.036

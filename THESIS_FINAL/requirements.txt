@@ -1,0 +1,40 @@
+# HindiParl-QA — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# GPU inference (03_run_inference.py) additionally requires vLLM:
+#   pip install vllm
+#
+# IndicTrans2 requires the AI4Bharat toolkit:
+#   pip install git+https://github.com/AI4Bharat/IndicTransToolkit.git
+
+# PDF extraction
+pdfplumber>=0.10.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Evaluation metrics
+rouge-score>=0.1.2
+evaluate>=0.4.0
+bert-score>=0.3.13
+
+# Embeddings and RAG
+sentence-transformers>=2.5.0
+faiss-cpu>=1.7.4         # or faiss-gpu for GPU-accelerated index
+
+# Translation quality (optional — needed for doc_fidelity_chrf)
+sacrebleu>=2.3.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# HuggingFace ecosystem
+transformers>=4.40.0
+huggingface-hub>=0.22.0
+torch>=2.2.0
+accelerate>=0.28.0
+
+# Cross-lingual BERTScore model (downloaded automatically by evaluate)
+# sentencepiece is needed by xlm-roberta tokenizer
+sentencepiece>=0.1.99

@@ -1,0 +1,4 @@
+condition,description,llama,mixtral,qwen,sarvam
+C1,Full Doc - English,0.364,0.27,0.376,0.359
+C2,Full Doc - Sarvam-MT,0.373,0.327,0.415,0.408
+C5,Full Doc - IndicTrans2,0.227,0.196,0.266,0.259

@@ -1,0 +1,9 @@
+run_tag,model,total_rows,valid,valid_pct,refusal,refusal_pct,null_empty,null_pct
+prompted,llama,900,541,60.1,359,39.9,0,0.0
+prompted,mixtral,900,453,50.3,447,49.7,0,0.0
+prompted,qwen,900,410,45.6,490,54.4,0,0.0
+prompted,sarvam,900,381,42.3,373,41.4,146,16.2
+noprompt,llama,900,859,95.4,41,4.6,0,0.0
+noprompt,mixtral,900,802,89.1,94,10.4,4,0.4
+noprompt,qwen,900,808,89.8,92,10.2,0,0.0
+noprompt,sarvam,900,583,64.8,194,21.6,123,13.7
