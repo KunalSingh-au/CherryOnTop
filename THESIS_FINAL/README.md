@@ -290,7 +290,7 @@ If you use this pipeline or benchmark, please cite:
 
 ```bibtex
 @thesis{kunal2026hindiparl,
-  title  = {HindiParl-QA: Benchmarking Large Language Models for Hindi Parliamentary Document Question Answering},
+  title  = {Puchtach: Cross-Lingual Benchmarking Large Language Models on Lok Sabha Documents\\ for Hindi Question-Answering},
   author = {Kunal Singh},
   year   = {2026},
   school = {Ashoka University},
